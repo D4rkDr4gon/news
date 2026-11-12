@@ -42,8 +42,9 @@ header.top .wrap{display:flex;align-items:center;justify-content:space-between;h
 .hero .sub{color:var(--text-dim);font-size:14px}
 .headlines{list-style:none;display:grid;gap:8px;margin:18px 0 8px}
 .headlines li{background:var(--red-glow);border:1px solid var(--red-border);border-radius:8px;padding:10px 14px;color:var(--heading);font-weight:500;font-size:15px}
-article.brief{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(min(100%,520px),1fr));align-items:start}
-article.brief .wide{grid-column:1/-1}
+article.brief{columns:3 460px;column-gap:16px}
+article.brief>.card{break-inside:avoid;margin-bottom:16px;display:block}
+article.brief>.wide{column-span:all}
 .headlines{grid-template-columns:repeat(auto-fill,minmax(min(100%,380px),1fr))}
 .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow)}
 @media (max-width:520px){.card{padding:16px}}
