@@ -3,8 +3,8 @@
     "date": "2026-11-12",
     "title": "Semana del 12/11",
     "headlines": [
-      "🛡️ Chrome: zero-day explotado CVE-2026-125350, actualizá a Chrome 157",
-      "🛡️ Patch Tuesday: Outlook con zero-day explotado CVE-2026-124194",
+      "🛡️ Chrome: zero-day explotado CVE-2026-125350, actualizá a Chrome 157.0.8103.50",
+      "🛡️ SonicWall SSLVPN: bypass de MFA/SAML explotado, CVE-2026-19868",
       "📊 Inflación de octubre: 2,2% mensual y 33,1% interanual",
       "🇦🇷 Jubilaciones +1,93% y bono de hasta $70.000 en noviembre"
     ]
