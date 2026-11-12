@@ -140,8 +140,10 @@ footer{border-top:1px solid var(--border);padding:20px 0;font-size:12px;color:va
   // ---- Borrador de LinkedIn (cifrado AES-GCM; se descifra solo con usuario y contraseña) ----
   let enc=null;
   try{const r=await fetch(`linkedin/${cur.date}.enc.json`,{cache:'no-store'});if(r.ok)enc=await r.json();}catch(e){}
-  if(enc){
+  {
     const box=document.createElement('section');box.className='card li';
+    if(!enc){box.innerHTML='<h2>🔒 Post de LinkedIn</h2><p class="msg">Todavía no hay post para esta semana.</p>';main.querySelector('article.brief').appendChild(box);}
+    else{
     box.innerHTML=`<h2>🔒 Post de LinkedIn</h2><form autocomplete="on"><input name="username" autocomplete="username" placeholder="Usuario" required><input name="password" type="password" autocomplete="current-password" placeholder="Contraseña" required><button>Desbloquear</button></form><div class="msg"></div>`;
     main.querySelector('article.brief').appendChild(box);
     const form=box.querySelector('form'),msg=box.querySelector('.msg');
@@ -170,7 +172,7 @@ footer{border-top:1px solid var(--border);padding:20px 0;font-size:12px;color:va
     }
     form.onsubmit=e=>{e.preventDefault();unlock(form.username.value,form.password.value);};
     const saved=ss.get();if(saved)unlock(saved.u,saved.p);
-  }
+  }}
 })();
 </script>
 </body>
