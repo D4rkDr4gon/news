@@ -71,6 +71,18 @@ aside h2{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;le
 .archive .d{font-family:var(--font-mono);font-size:12px;color:var(--text-muted);display:block}
 .archive a.active .d{color:var(--red)}
 .empty{text-align:center;padding:48px 20px;color:var(--text-dim)}
+.li{column-span:all;margin-top:8px;border-left:3px solid var(--red)}
+.li form{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.li input{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--border-2);border-radius:8px;background:var(--surface-2);color:var(--text);min-width:0;flex:1 1 160px}
+.li button,.li .btn{font:600 14px var(--font-sans);padding:8px 14px;border-radius:8px;border:1px solid var(--red);background:var(--red);color:#fff;cursor:pointer}
+.li .btn.ghost{background:transparent;color:var(--red)}
+.li .msg{font-size:13px;color:var(--text-muted);margin-top:8px;min-height:1em}
+.li .post{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:20px;margin-top:8px}
+@media (max-width:860px){.li .post{grid-template-columns:minmax(0,1fr)}}
+.li .txt{white-space:pre-wrap;background:var(--surface-2);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:15px}
+.li img{width:100%;height:auto;border-radius:8px;border:1px solid var(--border);display:block}
+.li .acts{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.li .tag{font-family:var(--font-mono);font-size:12px;color:var(--text-muted)}
 footer{border-top:1px solid var(--border);padding:20px 0;font-size:12px;color:var(--text-muted);font-family:var(--font-mono)}
 </style>
 </head>
@@ -124,6 +136,41 @@ footer{border-top:1px solid var(--border);padding:20px 0;font-size:12px;color:va
   main.innerHTML=html;
   main.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'});
   document.title=(cur.title||'Brief semanal')+' · lcampassi';
+
+  // ---- Borrador de LinkedIn (cifrado AES-GCM; se descifra solo con usuario y contraseña) ----
+  let enc=null;
+  try{const r=await fetch(`linkedin/${cur.date}.enc.json`,{cache:'no-store'});if(r.ok)enc=await r.json();}catch(e){}
+  if(enc){
+    const box=document.createElement('section');box.className='card li';
+    box.innerHTML=`<h2>🔒 Post de LinkedIn</h2><form autocomplete="on"><input name="username" autocomplete="username" placeholder="Usuario" required><input name="password" type="password" autocomplete="current-password" placeholder="Contraseña" required><button>Desbloquear</button></form><div class="msg"></div>`;
+    main.querySelector('article.brief').appendChild(box);
+    const form=box.querySelector('form'),msg=box.querySelector('.msg');
+    const b=s=>Uint8Array.from(atob(s),c=>c.charCodeAt(0));
+    const ss={get(){try{return JSON.parse(sessionStorage.getItem('li')||'null')}catch(e){return null}},set(v){try{sessionStorage.setItem('li',JSON.stringify(v))}catch(e){}}};
+    async function unlock(u,p){
+      msg.textContent='Descifrando…';
+      try{
+        const base=await crypto.subtle.importKey('raw',new TextEncoder().encode(u+':'+p),'PBKDF2',false,['deriveKey']);
+        const key=await crypto.subtle.deriveKey({name:'PBKDF2',salt:b(enc.salt),iterations:enc.iter||600000,hash:'SHA-256'},base,{name:'AES-GCM',length:256},false,['decrypt']);
+        const pt=await crypto.subtle.decrypt({name:'AES-GCM',iv:b(enc.iv)},key,b(enc.ct));
+        const post=JSON.parse(new TextDecoder().decode(pt));
+        ss.set({u,p});show(post);
+      }catch(e){msg.textContent='Usuario o contraseña incorrectos.';}
+    }
+    function show(post){
+      const tags=(post.hashtags||[]).join(' ');
+      const full=post.texto+(tags&&!post.texto.includes(tags)?'\n\n'+tags:'');
+      const img=post.png?'data:image/png;base64,'+post.png:'';
+      box.innerHTML=`<h2>📝 Post de LinkedIn</h2><div class="tag"></div><div class="post"><div><div class="txt"></div><div class="acts"><button class="cp">Copiar texto</button></div></div>${img?`<div><img alt="Imagen del post"><div class="acts"><a class="btn ghost dl">Descargar PNG</a></div></div>`:''}</div>`;
+      box.querySelector('.tag').textContent=[post.pilar,post.tema].filter(Boolean).join(' · ');
+      box.querySelector('.txt').textContent=full;
+      if(img){box.querySelector('img').src=img;const a=box.querySelector('.dl');a.href=img;a.download=`linkedin-${cur.date}.png`;}
+      const cp=box.querySelector('.cp');
+      cp.onclick=async()=>{try{await navigator.clipboard.writeText(full);cp.textContent='¡Copiado!';}catch(e){cp.textContent='No se pudo copiar';}setTimeout(()=>cp.textContent='Copiar texto',1800);};
+    }
+    form.onsubmit=e=>{e.preventDefault();unlock(form.username.value,form.password.value);};
+    const saved=ss.get();if(saved)unlock(saved.u,saved.p);
+  }
 })();
 </script>
 </body>
