@@ -1,0 +1,58 @@
+name: Retención de briefs (1 año)
+
+on:
+  schedule:
+    - cron: "0 3 * * 1"   # lunes 03:00 UTC = domingo 00:00 ART
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Días a conservar"
+        default: "365"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: briefs-write
+  cancel-in-progress: false
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Borrar briefs de más de un año
+        env:
+          KEEP_DAYS: ${{ github.event.inputs.days || '365' }}
+        run: |
+          python3 - <<'EOF'
+          import json, os, re, datetime, pathlib
+          keep = int(os.environ["KEEP_DAYS"])
+          cutoff = datetime.date.today() - datetime.timedelta(days=keep)
+          briefs = pathlib.Path("briefs")
+          removed = []
+          for f in briefs.glob("*.md"):
+              m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})\.md", f.name)
+              if m and datetime.date.fromisoformat(m.group(1)) < cutoff:
+                  f.unlink()
+                  removed.append(f.name)
+          idx_path = briefs / "index.json"
+          idx = json.loads(idx_path.read_text(encoding="utf-8"))
+          kept = [e for e in idx if datetime.date.fromisoformat(e["date"]) >= cutoff]
+          if len(kept) != len(idx):
+              idx_path.write_text(json.dumps(kept, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"Corte: {cutoff} | archivos borrados: {removed or 'ninguno'} | entradas índice: {len(idx)} -> {len(kept)}")
+          EOF
+
+      - name: Commit
+        run: |
+          if [ -n "$(git status --porcelain briefs)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+            git add -A briefs
+            git commit -m "Retención: borrar briefs de más de un año"
+            git push
+          else
+            echo "Nada para borrar"
+          fi
