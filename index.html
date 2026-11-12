@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Brief semanal · lcampassi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f7f8;--surface:#fff;--surface-2:#f1f1f3;--border:#e4e4e8;--border-2:#d2d2d8;
+  --heading:#111114;--text:#2a2a31;--text-dim:#55555f;--text-muted:#7a7a85;
+  --red:#e0193a;--red-glow:rgba(224,25,58,.07);--red-border:#f5cdd5;
+  --shadow:0 1px 2px rgba(17,17,20,.04),0 8px 24px -12px rgba(17,17,20,.12);
+  --font-sans:'Inter',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+  --font-mono:'JetBrains Mono','Fira Code',monospace;--radius:12px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#111317;--surface:#181b21;--surface-2:#1f232a;--border:#272b33;--border-2:#363b45;
+  --heading:#f4f5f7;--text:#dcdfe5;--text-dim:#a4aab5;--text-muted:#7f8693;
+  --red:#ff3b58;--red-glow:rgba(255,59,88,.09);--red-border:#4a1d26;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px -12px rgba(0,0,0,.5);
+}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--text);font:16px/1.65 var(--font-sans);min-height:100vh}
+a{color:var(--red);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--border);background:var(--surface);position:sticky;top:0;z-index:5}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;gap:12px}
+.brand{font-family:var(--font-mono);font-weight:600;color:var(--heading);font-size:15px}
+.brand span{color:var(--red)}
+.brand a{color:inherit}
+.top-meta{font-family:var(--font-mono);font-size:12px;color:var(--text-muted)}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;padding:32px 0 64px}
+@media (max-width:860px){.layout{grid-template-columns:minmax(0,1fr);gap:24px;padding-top:20px}}
+.hero{margin-bottom:20px}
+.kicker{font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--red)}
+.hero h1{font-size:clamp(26px,5vw,38px);line-height:1.15;color:var(--heading);letter-spacing:-.02em;margin:6px 0 4px}
+.hero .sub{color:var(--text-dim);font-size:14px}
+.headlines{list-style:none;display:grid;gap:8px;margin:18px 0 8px}
+.headlines li{background:var(--red-glow);border:1px solid var(--red-border);border-radius:8px;padding:10px 14px;color:var(--heading);font-weight:500;font-size:15px}
+article.brief{display:grid;gap:16px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow)}
+@media (max-width:520px){.card{padding:16px}}
+.card h2{font-size:19px;color:var(--heading);letter-spacing:-.01em;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.card h3{font-size:16px;color:var(--heading);margin:16px 0 4px}
+.card p{margin:6px 0}
+.card strong{color:var(--heading)}
+.card ul,.card ol{padding-left:20px;margin:6px 0}
+.card li{margin:6px 0}
+.card li::marker{color:var(--text-muted)}
+.card code{font-family:var(--font-mono);font-size:.88em;background:var(--surface-2);border:1px solid var(--border);border-radius:5px;padding:1px 5px;overflow-wrap:anywhere}
+.card a{overflow-wrap:anywhere}
+.card table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0;display:block;overflow-x:auto}
+.card th,.card td{border-bottom:1px solid var(--border);padding:6px 8px;text-align:left;white-space:nowrap}
+.card.dolar{border-left:3px solid var(--red)}
+.card.dolar h2{border:0;padding:0;margin-bottom:6px}
+.card sub,.sources{font-size:12px;color:var(--text-muted)}
+aside .card{position:sticky;top:76px;padding:16px}
+aside h2{font-family:var(--font-mono);font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-muted);border:0;padding:0;margin-bottom:8px}
+.archive{list-style:none;display:grid;gap:2px;padding:0!important;margin:0!important;max-height:60vh;overflow:auto}
+.archive a{display:block;padding:8px 10px;border-radius:8px;color:var(--text);font-size:14px}
+.archive a:hover{background:var(--surface-2);text-decoration:none}
+.archive a.active{background:var(--red-glow);color:var(--red);font-weight:600}
+.archive .d{font-family:var(--font-mono);font-size:12px;color:var(--text-muted);display:block}
+.archive a.active .d{color:var(--red)}
+.empty{text-align:center;padding:48px 20px;color:var(--text-dim)}
+footer{border-top:1px solid var(--border);padding:20px 0;font-size:12px;color:var(--text-muted);font-family:var(--font-mono)}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand"><a href="https://lcampassi.com">lcampassi</a><span>/</span>news</div>
+  <div class="top-meta" id="topMeta">brief semanal</div>
+</div></header>
+
+<main class="wrap layout">
+  <section id="main"><div class="card empty">Cargando…</div></section>
+  <aside><div class="card"><h2>Archivo</h2><ul class="archive" id="archive"></ul></div></aside>
+</main>
+
+<footer><div class="wrap">Generado automáticamente cada lunes 09:00 (ART) · solo uso personal</div></footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+<script>
+(async function(){
+  const main=document.getElementById('main'), arch=document.getElementById('archive');
+  const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmt=d=>{const [y,m,dd]=d.split('-');return `${dd}/${m}/${y}`};
+  let list=[];
+  try{const r=await fetch('briefs/index.json',{cache:'no-store'});list=await r.json();}catch(e){}
+  list.sort((a,b)=>b.date.localeCompare(a.date));
+  if(!list.length){main.innerHTML='<div class="card empty">Todavía no hay briefs. El primero sale el lunes a las 9:00.</div>';arch.innerHTML='<li class="sources">—</li>';return;}
+  const q=new URLSearchParams(location.search).get('d');
+  const cur=list.find(x=>x.date===q)||list[0];
+  arch.innerHTML=list.map(x=>`<li><a href="?d=${esc(x.date)}" class="${x.date===cur.date?'active':''}"><span class="d">${fmt(x.date)}</span>${esc(x.title||'Brief semanal')}</a></li>`).join('');
+  document.getElementById('topMeta').textContent='semana del '+fmt(cur.date);
+  let md='';
+  try{const r=await fetch(`briefs/${cur.date}.md`,{cache:'no-store'});if(!r.ok)throw 0;md=await r.text();}
+  catch(e){main.innerHTML='<div class="card empty">No se pudo cargar este brief.</div>';return;}
+  // quitar el H1/H2 de título del markdown (lo mostramos en el hero)
+  md=md.replace(/^#{1,2}\s*Brief semanal[^\n]*\n/i,'');
+  // partir en secciones por "## " o "### " de primer nivel
+  const lvl=/^## /m.test(md)?'## ':'### ';
+  const parts=md.split(new RegExp('^'+lvl.replace(/ /,' '),'m'));
+  const pre=parts.shift().trim();
+  const render=s=>DOMPurify.sanitize(marked.parse(s),{ADD_ATTR:['target']});
+  const hl=(cur.headlines||[]).map(h=>`<li>${esc(h)}</li>`).join('');
+  let html=`<div class="hero"><div class="kicker">Brief semanal</div><h1>${esc(cur.title||'Semana del '+fmt(cur.date))}</h1><div class="sub">Publicado el ${fmt(cur.date)}</div>${hl?`<ul class="headlines">${hl}</ul>`:''}</div><article class="brief">`;
+  if(pre) html+=`<div class="card dolar">${render(pre)}</div>`;
+  for(const p of parts){
+    const title=p.split('\n')[0];
+    const cls=/d[oó]lar/i.test(title)?'card dolar':'card';
+    html+=`<section class="${cls}">${render('## '+p)}</section>`;
+  }
+  html+='</article>';
+  main.innerHTML=html;
+  main.querySelectorAll('a[href^="http"]').forEach(a=>{a.target='_blank';a.rel='noopener'});
+  document.title=(cur.title||'Brief semanal')+' · lcampassi';
+})();
+</script>
+</body>
+</html>
