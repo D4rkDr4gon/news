@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-13",
+    "title": "Semana del 13/11",
+    "headlines": [
+      "🛡️ Outlook: zero-day explotado CVE-2026-124194 filtra hash NTLMv2 al abrir un archivo",
+      "🤖 OpenAI lanza GPT-6 Cyber con acceso restringido: 81 fallas en Firefox",
+      "🇦🇷 Ley de Discapacidad: dictamen en el Senado y sesión prevista para el 19/11",
+      "📊 Inflación de octubre: 2,2% mensual y 33,1% interanual"
+    ]
+  },
+  {
     "date": "2026-11-12",
     "title": "Semana del 12/11",
     "headlines": [
