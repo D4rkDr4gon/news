@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-11-21",
+    "title": "Semana del 21/11",
+    "headlines": [
+      "🛡️ vCenter CVE-2026-123890 explotado por espionaje chino: parchear VMware",
+      "💼 Brecha en Entra Connect Health: correos de admins expuestos, reforzar MFA",
+      "🇦🇷 Senado sancionó la Ley de Discapacidad: 71 votos y pensión al 70% de la mínima",
+      "🏙️ Colectivos y subte CABA +3,9% desde el 1/11; ABL y patentes en el presupuesto 2027"
+    ]
+  },
+  {
     "date": "2026-11-16",
     "title": "Semana del 16/11",
     "headlines": [
