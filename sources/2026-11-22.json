@@ -1,0 +1,2102 @@
+{
+ "generado": "2026-11-23T02:40:17.724Z",
+ "semana": {
+  "desde": "2026-11-16",
+  "hasta": "2026-11-22"
+ },
+ "nota": "Titulares recolectados por un lector RSS propio. Son candidatos: verificar leyendo la fuente antes de usarlos.",
+ "categorias": [
+  "IAM",
+  "Seguridad",
+  "DFIR",
+  "Forense",
+  "CSIRT",
+  "IA",
+  "Sector IT",
+  "Geopolítica",
+  "Defensa",
+  "Argentina"
+ ],
+ "items": [
+  {
+   "fecha": "2026-11-21T18:01:58.000Z",
+   "categoria": "IAM",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+   "resumen": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration informatio",
+   "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"
+  },
+  {
+   "fecha": "2026-11-21T14:35:00.000Z",
+   "categoria": "IAM",
+   "fuente": "theregister.com",
+   "titulo": "AWS got hit by an outage too. Here's why you didn't hear about it",
+   "resumen": "My editor asked me this week \"why is everything except AWS breaking?\" It's a great question! They haven't been in the headlines! In fact, as they are wont to do, AWS spokesperson Patrick Neighorn g ot salty to a reporter about how unreliabl",
+   "link": "https://www.theregister.com/columnists/2026/11/21/aws-got-hit-by-an-outage-too-heres-why-you-didnt-hear-about-it/5311511"
+  },
+  {
+   "fecha": "2026-11-20T21:27:56.000Z",
+   "categoria": "IAM",
+   "fuente": "theregister.com",
+   "titulo": "Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers",
+   "resumen": "Visa and Mastercard customer info leaked by the data thieves and extortionists who claim to have stolen it from the financial giants doesn’t include card numbers, passwords, or home addresses. On Thursday, Visa, Mastercard, and JPMorgan Cha",
+   "link": "https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478"
+  },
+  {
+   "fecha": "2026-11-20T14:28:00.000Z",
+   "categoria": "IAM",
+   "fuente": "theregister.com",
+   "titulo": "Microsoft's last non-security preview of 2026 packs a punch",
+   "resumen": "Microsoft has delivered its final scheduled non-security preview update of 2026 for Windows 11 25H2 and 26H2, with an updated Windows Search experience and a brighter Windows Hello for users who prefer darker rooms. The optional KB5132057 u",
+   "link": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300"
+  },
+  {
+   "fecha": "2026-11-20T11:36:24.000Z",
+   "categoria": "IAM",
+   "fuente": "aboutdfir.com",
+   "titulo": "InfoSec News Nuggets – 11/20/2026",
+   "resumen": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT Broadcom has patched CVE-2026-123890, a CVSS 9.8 authentication bypass in the VMware Directory Service that lets remote, unauthenticated attackers obtain an administrato",
+   "link": "https://aboutdfir.com/infosec-news-nuggets-11-20-2026/"
+  },
+  {
+   "fecha": "2026-11-20T11:09:44.000Z",
+   "categoria": "IAM",
+   "fuente": "theregister.com",
+   "titulo": "Windows 11 passkey bug cries failure after successful sign-in",
+   "resumen": "A Windows 11 passkey bug can leave Android phones announcing that authentication failed even when it succeeded. Microsoft has now released a fix for versions 25H2 and 26H2. The problem occurs when users sign in on a Windows 11 PC using a pa",
+   "link": "https://www.theregister.com/security/2026/11/20/windows-11-passkey-bug-cries-failure-after-successful-sign-in/5311263"
+  },
+  {
+   "fecha": "2026-11-19T15:14:54.000Z",
+   "categoria": "IAM",
+   "fuente": "theregister.com",
+   "titulo": "European Commission scrambles to contain AI-assisted cyberattack",
+   "resumen": "The European Commission is picking up the pieces after hackers wielding an AI-powered security testing tool targeted its internal IT systems, potentially exposing staff members' personal data. The attack, first reported by Politico, has cau",
+   "link": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
+  },
+  {
+   "fecha": "2026-11-18T12:06:47.000Z",
+   "categoria": "IAM",
+   "fuente": "aboutdfir.com",
+   "titulo": "InfoSec News Nuggets – 11/18/2026",
+   "resumen": "Oracle reveals fix-this-ASAP-grade Java4Shell bug that allows attacks on many third-party apps CISA is urging organizations to immediately patch CVE-2026-114938, a memory-corruption flaw dubbed “Java4Shell” in OpenJDK’s optimized Base64 dec",
+   "link": "https://aboutdfir.com/infosec-news-nuggets-11-18-2026/"
+  },
+  {
+   "fecha": "2026-11-18T11:00:00.000Z",
+   "categoria": "IAM",
+   "fuente": "blog.talosintelligence.com",
+   "titulo": "UAT-12643: Suspected North Korea-aligned actor blends blockchain resilience with targeted infostealing",
+   "resumen": "Cisco Talos discovered malicious infrastructure associated with a financially motivated threat group we are tracking as UAT-12643. The actor’s arsenal has several payloads including the Go-based Overlord remote access trojan (RAT), a Python",
+   "link": "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/"
+  },
+  {
+   "fecha": "2026-11-17T15:00:00.000Z",
+   "categoria": "IAM",
+   "fuente": "microsoft.com",
+   "titulo": "The risks of device code authentication for AI coding agents",
+   "resumen": "In this article From a familiar phishing technique to an AI coding agent How the attack works One approval, four ways the impact can spread Turning a phishing attempt into a Defender signal Mitigation and protection guidance References Lear",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/17/the-risks-of-device-code-authentication-for-ai-coding-agents/"
+  },
+  {
+   "fecha": "2026-11-17T14:00:00.000Z",
+   "categoria": "IAM",
+   "fuente": "huntress.com",
+   "titulo": "Huntress Delivers 24/7 Response for Microsoft Defender Incidents Across Endpoints and Microsoft 365",
+   "resumen": "The Huntress Agentic Security Platform now sees incidents from Defender for Identity, Defender for Office 365, Defender for Cloud Apps, and Entra ID Protection. The new data already helped uncover a token-replay campaign that hit 97 account",
+   "link": "https://www.huntress.com/blog/huntress-response-for-microsoft-defender-incidents-across-endpoints-and-microsoft-365"
+  },
+  {
+   "fecha": "2026-11-17T12:00:00.000Z",
+   "categoria": "IAM",
+   "fuente": "cisa.gov",
+   "titulo": "Siemens SIMATIC",
+   "resumen": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user.",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08"
+  },
+  {
+   "fecha": "2026-11-17T00:08:41.000Z",
+   "categoria": "IAM",
+   "fuente": "microsoft.com",
+   "titulo": "High volume phishing campaign uses Microsoft 365 outage lures to target multiple industry sectors",
+   "resumen": "In this article Phishing attack overview Attack chain overview Mitigation and protection guidance References Learn More On November 13, 2026, Microsoft Threat Intelligence observed a coordinated, high-volume phishing campaign targeting orga",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/"
+  },
+  {
+   "fecha": "2026-11-23T02:00:04.000Z",
+   "categoria": "Seguridad",
+   "fuente": "isc.sans.edu",
+   "titulo": "ISC Stormcast For Monday, November 23rd, 2026 https://isc.sans.edu/podcastdetail/10190, (Mon, Nov 23rd)",
+   "resumen": "(c) SANS Internet Storm Center. https://isc.sans.edu Creative Commons Attribution-Noncommercial 3.0 United States License.",
+   "link": "https://isc.sans.edu/diary/rss/33548"
+  },
+  {
+   "fecha": "2026-11-22T18:45:37.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+   "resumen": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving rem",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/"
+  },
+  {
+   "fecha": "2026-11-22T18:40:18.000Z",
+   "categoria": "Seguridad",
+   "fuente": "isc.sans.edu",
+   "titulo": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+   "resumen": "BLUF: Debian and Ubuntu dropped a config directive in the rsyslogd package in early 2023. As any of my FOR577 students will tell you, I'm a fan of ISO-8601 (ok, RFC 3339, too, see below). They'll probably also tell you I'm a firm believer i",
+   "link": "https://isc.sans.edu/diary/rss/33530"
+  },
+  {
+   "fecha": "2026-11-22T15:43:04.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+   "resumen": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"
+  },
+  {
+   "fecha": "2026-11-22T15:15:25.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+   "resumen": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"
+  },
+  {
+   "fecha": "2026-11-22T05:06:55.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+   "resumen": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero D",
+   "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"
+  },
+  {
+   "fecha": "2026-11-22T05:03:41.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+   "resumen": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScri",
+   "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"
+  },
+  {
+   "fecha": "2026-11-21T22:59:58.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
+   "resumen": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"
+  },
+  {
+   "fecha": "2026-11-21T15:17:27.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+   "resumen": "The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year's disruptions. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"
+  },
+  {
+   "fecha": "2026-11-21T14:26:04.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "FBI reportedly hacked again, this time targeting nationwide police database",
+   "resumen": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement age",
+   "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
+  },
+  {
+   "fecha": "2026-11-21T11:53:07.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+   "resumen": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Mus",
+   "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"
+  },
+  {
+   "fecha": "2026-11-21T11:05:53.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+   "resumen": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from ",
+   "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"
+  },
+  {
+   "fecha": "2026-11-21T11:03:17.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+   "resumen": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The fl",
+   "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"
+  },
+  {
+   "fecha": "2026-11-21T08:49:20.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+   "resumen": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\" The feature applies to ag",
+   "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"
+  },
+  {
+   "fecha": "2026-11-21T08:49:13.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+   "resumen": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence ",
+   "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+  },
+  {
+   "fecha": "2026-11-21T00:36:39.000Z",
+   "categoria": "Seguridad",
+   "fuente": "krebsonsecurity.com",
+   "titulo": "CTO of ‘RansomwareHelp’ Indicted for Wire Fraud",
+   "resumen": "The chief technology officer and co-founder of ransomwarehelp.com , a six year old Florida business that claimed to use “advanced cryptographic tools” to restore data locked by ransomware, has been charged with wire fraud after an FBI sting",
+   "link": "https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"
+  },
+  {
+   "fecha": "2026-11-20T18:51:43.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+   "resumen": "Bell Canada has confirmed that an \"agentic\" threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"
+  },
+  {
+   "fecha": "2026-11-20T17:57:20.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+   "resumen": "Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), h",
+   "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"
+  },
+  {
+   "fecha": "2026-11-20T17:30:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+   "resumen": "Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"
+  },
+  {
+   "fecha": "2026-11-20T16:58:16.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+   "resumen": "Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company Th",
+   "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
+  },
+  {
+   "fecha": "2026-11-20T15:58:06.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
+   "resumen": "J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers' personal information and marketing data. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"
+  },
+  {
+   "fecha": "2026-11-20T15:00:10.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Still tracking company passwords in spreadsheets? You’re flying blind.",
+   "resumen": "Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credent",
+   "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"
+  },
+  {
+   "fecha": "2026-11-20T13:18:36.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "N-able says recent security breach led to major service outage",
+   "resumen": "N-able says attackers who breached one of its servers have caused a major outage affecting Mail Assure and SpamExperts Hosted Cloud services worldwide. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/"
+  },
+  {
+   "fecha": "2026-11-20T12:20:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts",
+   "resumen": "A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server's memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers'",
+   "link": "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"
+  },
+  {
+   "fecha": "2026-11-20T12:14:28.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
+   "resumen": "Starting this week, Microsoft has begun automatically upgrading eligible devices that aren't managed by an IT department to Windows 11 26H2. [...]",
+   "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/"
+  },
+  {
+   "fecha": "2026-11-19T22:25:42.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Hackers steal data of 1.6 million SBC Medical Group customers",
+   "resumen": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people. [",
+   "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
+  },
+  {
+   "fecha": "2026-11-19T21:15:59.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+   "resumen": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/"
+  },
+  {
+   "fecha": "2026-11-19T18:47:58.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+   "resumen": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary thin",
+   "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html"
+  },
+  {
+   "fecha": "2026-11-19T18:20:01.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "Transport for London breach exposes 265,000 Oyster card users' data",
+   "resumen": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/"
+  },
+  {
+   "fecha": "2026-11-19T16:59:56.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+   "resumen": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects ca",
+   "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html"
+  },
+  {
+   "fecha": "2026-11-19T16:28:23.000Z",
+   "categoria": "Seguridad",
+   "fuente": "bleepingcomputer.com",
+   "titulo": "PHP security updates fix 18 flaws, including critical RCE bugs",
+   "resumen": "The PHP development team released security updates addressing 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers. [...]",
+   "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
+  },
+  {
+   "fecha": "2026-11-19T15:18:07.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+   "resumen": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560. The release of the patch follows an ad",
+   "link": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
+  },
+  {
+   "fecha": "2026-11-19T15:11:06.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Critical VMware vCenter Zero-Day Flaw Lets Network Attackers Bypass Authentication",
+   "resumen": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today. Fixed versions are out for all suppor",
+   "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
+  },
+  {
+   "fecha": "2026-11-19T14:33:06.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+   "resumen": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site. That can lead to a site takeover or remote code execution, and ",
+   "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html"
+  },
+  {
+   "fecha": "2026-11-18T19:54:50.000Z",
+   "categoria": "Seguridad",
+   "fuente": "isc.sans.edu",
+   "titulo": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+   "resumen": "About a month ago, we went to Infocon Yellow for the first time in a few years. We decided to address the php2shell vulnerability and alert our readers to its significant impact. Following php2shell, we had a number of vulnerabilities and e",
+   "link": "https://isc.sans.edu/diary/rss/33532"
+  },
+  {
+   "fecha": "2026-11-18T18:31:17.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+   "resumen": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in. The decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since vers",
+   "link": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html"
+  },
+  {
+   "fecha": "2026-11-18T18:15:39.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+   "resumen": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts. Each flaw needs a specific setup on a virtual server: an iRule that",
+   "link": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html"
+  },
+  {
+   "fecha": "2026-11-18T17:10:45.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+   "resumen": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF) The vulnerability, tracked as CVE-2026-129448 (CVSS s",
+   "link": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html"
+  },
+  {
+   "fecha": "2026-11-18T14:11:28.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+   "resumen": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines. \"When attackers are exposed, the cheap re",
+   "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html"
+  },
+  {
+   "fecha": "2026-11-18T12:28:30.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+   "resumen": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say. That leaves short PINs open to guessing. In lab tes",
+   "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html"
+  },
+  {
+   "fecha": "2026-11-18T12:15:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+   "resumen": "TL;DR Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day. AI pentesting ven",
+   "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html"
+  },
+  {
+   "fecha": "2026-11-18T12:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "cisa.gov",
+   "titulo": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+   "resumen": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+   "link": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog"
+  },
+  {
+   "fecha": "2026-11-18T11:55:49.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+   "resumen": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week. The flaw is pres",
+   "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html"
+  },
+  {
+   "fecha": "2026-11-17T19:34:20.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+   "resumen": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company. Widgets are small interactive blocks that bots send inside chat messages, ",
+   "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html"
+  },
+  {
+   "fecha": "2026-11-17T15:17:36.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+   "resumen": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code e",
+   "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html"
+  },
+  {
+   "fecha": "2026-11-17T15:17:28.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+   "resumen": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram. \"Trigram is a large-scale campaign that impersonates about 50 br",
+   "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
+  },
+  {
+   "fecha": "2026-11-17T12:25:06.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+   "resumen": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it. In March 2026, the hackers who hijacked Trivy,",
+   "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html"
+  },
+  {
+   "fecha": "2026-11-17T12:14:36.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+   "resumen": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt. The first security updates with the fix came out on August 17. Neither Apple nor the t",
+   "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html"
+  },
+  {
+   "fecha": "2026-11-17T12:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "cisa.gov",
+   "titulo": "Siemens Simcenter Femap",
+   "resumen": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Si",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10"
+  },
+  {
+   "fecha": "2026-11-17T12:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "cisa.gov",
+   "titulo": "Dorsett Controls InfoScan",
+   "resumen": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate netw",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01"
+  },
+  {
+   "fecha": "2026-11-17T12:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "cisa.gov",
+   "titulo": "Siemens Mendix Studio Pro",
+   "resumen": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, pot",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05"
+  },
+  {
+   "fecha": "2026-11-17T12:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "cisa.gov",
+   "titulo": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+   "resumen": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has ",
+   "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02"
+  },
+  {
+   "fecha": "2026-11-16T14:00:00.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+   "resumen": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execu",
+   "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html"
+  },
+  {
+   "fecha": "2026-11-16T13:27:20.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+   "resumen": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job. Meanw",
+   "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html"
+  },
+  {
+   "fecha": "2026-11-16T13:11:04.000Z",
+   "categoria": "Seguridad",
+   "fuente": "isc.sans.edu",
+   "titulo": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+   "resumen": "This weekend, we started seeing requests for /mcp-rest/test/tools/list hitting our honeypots. These requests appear to attempt to exploit CVE-2026-42271 and CVE-2026-48710. Horizon3.ai published a short write-up about how these vulnerabilit",
+   "link": "https://isc.sans.edu/diary/rss/33522"
+  },
+  {
+   "fecha": "2026-11-16T12:34:21.000Z",
+   "categoria": "Seguridad",
+   "fuente": "thehackernews.com",
+   "titulo": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+   "resumen": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week. No patch is available, and the researchers say ",
+   "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html"
+  },
+  {
+   "fecha": "2026-11-22T00:13:55.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "BEC protection gap: Why orgs overestimate their protection",
+   "resumen": "You might not expect a disaster recovery company to weigh in on business email compromise (BEC). But the fact that we are the ones talking about it is a sign that, too often, something’s gone wrong.",
+   "link": "https://www.huntress.com/blog/bec-protection-gap-why-organizations-feel-safer-than-they-are"
+  },
+  {
+   "fecha": "2026-11-20T22:00:25.000Z",
+   "categoria": "DFIR",
+   "fuente": "unit42.paloaltonetworks.com",
+   "titulo": "Dialing for Data: Inside the Com’s High-Profile Heists",
+   "resumen": "Our analysis of Com affiliate vishing attacks, cloud data theft and extortion campaigns targeting healthcare and finance, with actionable defense guidance. The post Dialing for Data: Inside the Com’s High-Profile Heists appeared first on Un",
+   "link": "https://unit42.paloaltonetworks.com/com-affiliate-vishing-attacks/"
+  },
+  {
+   "fecha": "2026-11-20T14:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "Handling the NIST 800-171 Rev 3 Transition",
+   "resumen": "Learn how defense contractors can navigate the transition from NIST SP 800-171 Revision 2 to Revision 3 with a practical four-step approach for CMMC compliance.",
+   "link": "https://www.huntress.com/blog/handling-the-nist-800-171-rev-3-transition"
+  },
+  {
+   "fecha": "2026-11-19T14:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "Detecting Timeroasting the Hard Way",
+   "resumen": "Timeroasting leaves no authentication log, but it is not invisible. I reverse MS-SNTP's two authenticator forms to build detection that packet size cannot fool.",
+   "link": "https://www.huntress.com/blog/detecting-timeroasting"
+  },
+  {
+   "fecha": "2026-11-19T08:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "RMM Alerts at 2 AM: An MSP and SOC Incident Response Story",
+   "resumen": "One compromised account, two rogue ScreenConnect deployments, and $3M in downtime. See how TruePath IT and the Huntress SOC handled RMM alerts at 2am.",
+   "link": "https://www.huntress.com/blog/rmm-alerts-msp-soc-incident-response"
+  },
+  {
+   "fecha": "2026-11-18T08:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "What Business Email Compromise (BEC) Looks Like & How to Catch It",
+   "resumen": "BEC hides in the vendor and billing threads you already trust. See how a Huntress team caught one, and the inbox rules and signs to watch for.",
+   "link": "https://www.huntress.com/blog/what-bec-looks-like"
+  },
+  {
+   "fecha": "2026-11-17T20:43:14.000Z",
+   "categoria": "DFIR",
+   "fuente": "unit42.paloaltonetworks.com",
+   "titulo": "Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us",
+   "resumen": "The OPTIMJACK supply chain attack demonstrates how a compromised vendor script can expose websites, highlighting the need for strict segmentation. The post Borrowed Code, Real Consequences: What OPTIMJACK Teaches Us appeared first on Unit 4",
+   "link": "https://unit42.paloaltonetworks.com/optimjack-supply-chain-attack/"
+  },
+  {
+   "fecha": "2026-11-16T23:00:55.000Z",
+   "categoria": "DFIR",
+   "fuente": "unit42.paloaltonetworks.com",
+   "titulo": "QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments",
+   "resumen": "We uncover a Southeast Asian cyberespionage campaign deploying PerfectPioneer RAT, modular KUKURAT and stealth HTTP/3 C2 communication channels. The post QUIC and Covert: Novel HTTP/3-Powered RATs Target Southeast Asian Governments appeared",
+   "link": "https://unit42.paloaltonetworks.com/custom-rats-target-southeast-asia-governments/"
+  },
+  {
+   "fecha": "2026-11-16T18:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "CVE-2026-84869 in ScreenConnect Exploited to Run Malicious Files on MSP Technician Accounts",
+   "resumen": "Huntress confirmed CVE-2026-84869 exploitation against MSP technicians via ScreenConnect. See the attack chain, IOCs, and how to protect your team.",
+   "link": "https://www.huntress.com/blog/cve-2026-84869-screenconnect-technician-exploitation"
+  },
+  {
+   "fecha": "2026-11-16T15:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "New Huntress Security Insights Report & Reporting Center",
+   "resumen": "Meet the redesigned Huntress Security Insights Report (formerly known as Threat Report), a one-page summary in an updated reporting center.",
+   "link": "https://www.huntress.com/blog/security-insights-report"
+  },
+  {
+   "fecha": "2026-11-16T14:00:00.000Z",
+   "categoria": "DFIR",
+   "fuente": "huntress.com",
+   "titulo": "The AI Arena: Huntress CTF 2026 Retro",
+   "resumen": "Explore Huntress CTF 2026, where competitors tackled real-world cybersecurity challenges and tested how AI can support human-led problem-solving.",
+   "link": "https://www.huntress.com/blog/ai-arena-huntress-ctf-2026-retro"
+  },
+  {
+   "fecha": "2026-11-22T12:13:18.000Z",
+   "categoria": "Forense",
+   "fuente": "thisweekin4n6.com",
+   "titulo": "Week 47 – 2026",
+   "resumen": "If your organisation is interested in sponsoring an upcoming post then reach out via the contact form! No sponsor this week",
+   "link": "https://thisweekin4n6.com/2026/11/22/week-47-2026/"
+  },
+  {
+   "fecha": "2026-11-20T21:04:52.000Z",
+   "categoria": "Forense",
+   "fuente": "magnetforensics.com",
+   "titulo": "Beyond the phone: where confidence in evidence access drops",
+   "resumen": "Key takeaways More than eight in 10 digital evidence professionals who work with mobile data are very or extremely confident their organization can access it. For vehicle and drone data, fewer than half say the same. Mobile confidence had t",
+   "link": "https://www.magnetforensics.com/blog/beyond-the-phone-where-confidence-in-evidence-access-drops/"
+  },
+  {
+   "fecha": "2026-11-20T20:35:29.000Z",
+   "categoria": "Forense",
+   "fuente": "cybertriage.com",
+   "titulo": "AI in Cyber Triage 4.0",
+   "resumen": "The 4.0 release of Cyber Triage expanded its use of AI during the analysis process, and this post is for our current and future users about how it works and where your data goes. Our goal is to be as transparent as possible so that you can ",
+   "link": "https://www.cybertriage.com/blog/ai-in-cyber-triage-4-0/"
+  },
+  {
+   "fecha": "2026-11-20T11:52:25.000Z",
+   "categoria": "Forense",
+   "fuente": "forensicfocus.com",
+   "titulo": "Forensic Focus Digest, 20 Nov 2026",
+   "resumen": "Discover what’s new on Forensic Focus: explore the US, UK legal divide on AI child abuse images, hear from Georg H. Jeitler on authenticating digital evidence in the age of AI, find out about the Magnet Virtual Summit 2027, and",
+   "link": "https://www.forensicfocus.com/news/forensic-focus-digest-20-nov-2026/"
+  },
+  {
+   "fecha": "2026-11-19T17:28:28.000Z",
+   "categoria": "Forense",
+   "fuente": "forensicfocus.com",
+   "titulo": "Registration Opens For Magnet Virtual Summit 2027, Featuring 50+ Digital Forensics Presentations",
+   "resumen": "Registration is now open for Magnet Virtual Summit 2027, a free four-day event taking place February 8–11, featuring 50+ expert-led sessions on the latest trends, challenges, and techniques in digital forensics and incident response.",
+   "link": "https://www.forensicfocus.com/news/registration-opens-for-magnet-virtual-summit-2027-featuring-50-digital-forensics-presentations/"
+  },
+  {
+   "fecha": "2026-11-19T13:49:59.000Z",
+   "categoria": "Forense",
+   "fuente": "magnetforensics.com",
+   "titulo": "Registration is open for Magnet Virtual Summit 2027",
+   "resumen": "Key takeaways Registration is open for Magnet Virtual Summit 2027 (February 8-11), with 50+ presentations on AI, mobile, cloud, deepfakes, eDiscovery, incident response and more. Take part in content that is practical, including keynotes fr",
+   "link": "https://www.magnetforensics.com/blog/registration-is-open-for-magnet-virtual-summit-2027/"
+  },
+  {
+   "fecha": "2026-11-19T12:57:24.000Z",
+   "categoria": "Forense",
+   "fuente": "forensicfocus.com",
+   "titulo": "Georg H. Jeitler: The Impact Of AI And Deepfakes On Digital Evidence Authentication",
+   "resumen": "How can forensic investigators separate fact from fiction in the age of AI? Georg H. Jeitler of GFOR Interdisciplinary Forensics shares insights into digital evidence authentication, AI-generated content, and the role of Amped Authenticate ",
+   "link": "https://www.forensicfocus.com/interviews/georg-h-jeitler-the-impact-of-ai-and-deepfakes-on-digital-evidence-authentication/"
+  },
+  {
+   "fecha": "2026-11-19T12:42:46.000Z",
+   "categoria": "Forense",
+   "fuente": "aboutdfir.com",
+   "titulo": "InfoSec News Nuggets – 11/19/2026",
+   "resumen": "Optimizely Supply Chain Attack Distributes Malware Across Global Brands On November 16, an attacker abused a flaw in the account signup flow of Optimizely’s Web Experimentation platform to plant malicious code in the optional Project JavaSc",
+   "link": "https://aboutdfir.com/infosec-news-nuggets-11-19-2026/"
+  },
+  {
+   "fecha": "2026-11-19T09:00:00.000Z",
+   "categoria": "Forense",
+   "fuente": "magnetforensics.com",
+   "titulo": "Magnet Virtual Summit 2027 CTF: New challenges, new leaderboards",
+   "resumen": "Key takeaways Put your digital forensics skills to the test: Compete in a three-hour Magnet Virtual Summit Capture the Flag featuring new forensic datasets, realistic investigative scenarios, and challenges for all experience levels. Choose",
+   "link": "https://www.magnetforensics.com/blog/magnet-virtual-summit-2027-ctf-new-challenges-new-leaderboards/"
+  },
+  {
+   "fecha": "2026-11-17T11:45:03.000Z",
+   "categoria": "Forense",
+   "fuente": "aboutdfir.com",
+   "titulo": "InfoSec News Nuggets – 11/17/2026",
+   "resumen": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks Barracuda has disclosed that it fell victim to an intrusion powered by Artex, an agentic AI penetration testing framework that has quickly become a staple for Chinese state-backed gr",
+   "link": "https://aboutdfir.com/infosec-news-nuggets-11-17-2026/"
+  },
+  {
+   "fecha": "2026-11-16T17:17:19.000Z",
+   "categoria": "Forense",
+   "fuente": "cybertriage.com",
+   "titulo": "DFIR Collections Before Patching: Forensic Triage Under CISA BOD 26-04",
+   "resumen": "DFIR Collections Before Patching: Forensic Triage Under CISA BOD 26-04 CISA announced a directive ( BOD 26-04 ) for US agencies to collect data from systems before they patch specific vulnerabilities. This guidance is consistent with how to",
+   "link": "https://www.cybertriage.com/blog/dfir-collections-before-patching-forensic-triage-under-cisa-bod-26-04/"
+  },
+  {
+   "fecha": "2026-11-16T16:12:51.000Z",
+   "categoria": "Forense",
+   "fuente": "forensicfocus.com",
+   "titulo": "Why A US Ruling On AI Child Abuse Images Would Not Survive In Britain",
+   "resumen": "How is AI reshaping child abuse laws and digital forensic investigations? Paul Gullon-Scott explores the US–UK legal divide and its implications for investigators.",
+   "link": "https://www.forensicfocus.com/articles/why-a-us-ruling-on-ai-child-abuse-images-would-not-survive-in-britain/"
+  },
+  {
+   "fecha": "2026-11-16T11:04:19.000Z",
+   "categoria": "Forense",
+   "fuente": "aboutdfir.com",
+   "titulo": "InfoSec News Nuggets – 11/16/2026",
+   "resumen": "New NoisyTCP vulnerability lets attackers crash Linux servers An 11-year-old Linux kernel vulnerability dubbed NoisyTCP (CVE-2026-99288) affects nearly every Linux distribution and allows unauthenticated remote attackers to crash systems ru",
+   "link": "https://aboutdfir.com/infosec-news-nuggets-11-16-2026/"
+  },
+  {
+   "fecha": "2026-11-19T19:00:00.000Z",
+   "categoria": "CSIRT",
+   "fuente": "blog.talosintelligence.com",
+   "titulo": "The internet needs a nap (and you do, too)",
+   "resumen": "“Not everything that is faced can be changed; but nothing can be changed until it is faced.” — James Baldwin Welcome to this week’s edition of the Threat Source newsletter. I had planned to write about one thing. The week, apparently, had o",
+   "link": "https://blog.talosintelligence.com/the-internet-needs-a-nap-and-you-do-too/"
+  },
+  {
+   "fecha": "2026-11-18T11:00:00.000Z",
+   "categoria": "CSIRT",
+   "fuente": "blog.talosintelligence.com",
+   "titulo": "The challenge of defending against bulletproof dead drops on public blockchains",
+   "resumen": "The evolution of malware command-and-control (C2) infrastructure has shifted away from fragile, centralized servers and hardcoded domains toward resilient, decentralized blockchain networks that eliminate single points of failure. Threat ac",
+   "link": "https://blog.talosintelligence.com/the-challenge-of-defending-against-bulletproof-dead-drops-on-public-blockchains/"
+  },
+  {
+   "fecha": "2026-11-18T01:53:03.000Z",
+   "categoria": "CSIRT",
+   "fuente": "blog.talosintelligence.com",
+   "titulo": "CVE-2026-114938: Critical vulnerability in OpenJDK Java",
+   "resumen": "Update 11/18/2026: Cisco has released a security advisory on products potentially affected by this vulnerability. Cisco Talos is tracking the disclosure of a critical vulnerability in OpenJDK Java (CVE-2026-114938), dubbed “Java4Shell,” wit",
+   "link": "https://blog.talosintelligence.com/java4shell/"
+  },
+  {
+   "fecha": "2026-11-16T18:10:25.000Z",
+   "categoria": "CSIRT",
+   "fuente": "welivesecurity.com",
+   "titulo": "¿Es seguro subir tu pasaporte o documento de identidad a internet?",
+   "resumen": "A veces no tenemos otra opción que compartir algunos de nuestros documentos de identificación y datos biométricos más sensibles con servicios de terceros. Te explicamos cómo minimizar los riesgos.",
+   "link": "https://www.welivesecurity.com/es/privacidad/es-seguro-subir-pasaporte-documento-identidad-en-linea/"
+  },
+  {
+   "fecha": "2026-11-22T22:48:02.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "We haven’t seen the last of the major tech outages",
+   "resumen": "Over the last week or so, we have seen a nationwide FAA ground stop, a multi-day Outlook outage that brought entire companies to a standstill, and a banking outage at JPMorgan Chase . But the consensus is that there are more to come . Direc",
+   "link": "https://www.theverge.com/tech/1039851/major-tech-outages"
+  },
+  {
+   "fecha": "2026-11-22T19:45:06.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Select Styling Specimens",
+   "resumen": "Tool: Select Styling Specimens I got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome: So I had Claude Fable 5.2 build me this page showing all of the ways they",
+   "link": "https://simonwillison.net/2026/Nov/22/select-styling/"
+  },
+  {
+   "fecha": "2026-11-22T17:25:20.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Binding of Isaac developer removes AI music from Repentance Plus",
+   "resumen": "The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music . Reddit user ShweetsStuff discovered the songs used during a Grand",
+   "link": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"
+  },
+  {
+   "fecha": "2026-11-22T13:00:00.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "The vibe-coding revolution is coming to all the gadgets",
+   "resumen": "This is The Stepback , a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce . The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in",
+   "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+  },
+  {
+   "fecha": "2026-11-21T23:56:28.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Muru",
+   "resumen": "Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools ",
+   "link": "https://simonwillison.net/2026/Nov/21/muru/"
+  },
+  {
+   "fecha": "2026-11-21T20:03:37.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "The UN fails to agree on rules regulating ‘killer robots’",
+   "resumen": "One of the items on the agenda for UN diplomats meeting in Geneva this week was working towards rules regarding the use of autonomous weapons, or so-called \"killer robots.\" Eventually, representatives left the meetings agreeing to \"start di",
+   "link": "https://www.theverge.com/tech/1039554/un-regulations-killer-robots"
+  },
+  {
+   "fecha": "2026-11-21T15:00:00.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Can Anthropic afford to put safety first?",
+   "resumen": "Today, I’m talking with Hayden Field, The Verge ’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The number",
+   "link": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure"
+  },
+  {
+   "fecha": "2026-11-21T14:00:00.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+   "resumen": "Chess.com is ready to go a lot bigger than chess. After launching Gambit , a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi,",
+   "link": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai"
+  },
+  {
+   "fecha": "2026-11-20T19:21:49.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Quoting Ravi Vakil",
+   "resumen": "Alessandro Masullo has a proposed proof of [Generalized Riemann Hypothesis], and Brian Conrad has been looking closely at it for months and gave extensive feedback which is being incorporated, and it is so far looking good. It is all human,",
+   "link": "https://simonwillison.net/2026/Nov/20/ravi-vakil/"
+  },
+  {
+   "fecha": "2026-11-20T18:50:19.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "resumen": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to a",
+   "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+  },
+  {
+   "fecha": "2026-11-20T18:15:15.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "The most misunderstood graph in AI just got a major update",
+   "resumen": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are a",
+   "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+  },
+  {
+   "fecha": "2026-11-20T16:34:13.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
+   "resumen": "Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracki",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem"
+  },
+  {
+   "fecha": "2026-11-20T16:30:48.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Quoting Levent Alpöge",
+   "resumen": "I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis. In fact, the method easily extends much further, resolving the so-called Generalized Riemann Hypothesis, and I expect, with more time, the Extended Riemann",
+   "link": "https://simonwillison.net/2026/Nov/20/levent-alpoge/"
+  },
+  {
+   "fecha": "2026-11-20T14:06:59.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "The week everything fell apart",
+   "resumen": "There was a dayslong Outlook outage . A nationwide ground stop for only the second time in 25 years. Banks seemed to suddenly stop working . Even iCloud couldn't stay up and running . This week, it felt like the technological world simply c",
+   "link": "https://www.theverge.com/podcast/1038419/outage-outlook-ground-stop-tech-failure-vergecast"
+  },
+  {
+   "fecha": "2026-11-19T22:31:41.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Apple is hiring engineers to build its own AI agent",
+   "resumen": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg , which ",
+   "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing"
+  },
+  {
+   "fecha": "2026-11-19T21:59:35.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "A brief history of Nvidia’s recent stock fluctuations",
+   "resumen": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the em",
+   "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings"
+  },
+  {
+   "fecha": "2026-11-19T20:43:57.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "PostgreSQL 19 Released",
+   "resumen": "PostgreSQL 19 Released Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported",
+   "link": "https://simonwillison.net/2026/Nov/19/postgresql-19/"
+  },
+  {
+   "fecha": "2026-11-19T20:22:17.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Meta’s Muse Charm might cost $300",
+   "resumen": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information . CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expec",
+   "link": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+  },
+  {
+   "fecha": "2026-11-19T20:05:06.000Z",
+   "categoria": "IA",
+   "fuente": "theverge.com",
+   "titulo": "Google is putting AI chats right on the homepage",
+   "resumen": "Google is updating its homepage to include AI searches. In a post on X , Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein,",
+   "link": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats"
+  },
+  {
+   "fecha": "2026-11-18T23:59:20.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "llm-gemini 0.38",
+   "resumen": "Release: llm-gemini 0.38 Today Google introduced Gemini 4 Neon . I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse. Previously the Gemini 4 lineup was Hydrogen, Argon, and C",
+   "link": "https://simonwillison.net/2026/Nov/18/llm-gemini/"
+  },
+  {
+   "fecha": "2026-11-18T17:09:59.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "datasette-arrows 0.1a0",
+   "resumen": "Release: datasette-arrows 0.1a0 Datasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to l",
+   "link": "https://simonwillison.net/2026/Nov/18/datasette-arrows/"
+  },
+  {
+   "fecha": "2026-11-18T15:58:27.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Quoting Daniel Stenberg",
+   "resumen": "During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A litt",
+   "link": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/"
+  },
+  {
+   "fecha": "2026-11-18T14:44:48.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "The PSF end-of-year fundraiser",
+   "resumen": "The PSF end-of-year fundraiser With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community. If your company or your work be",
+   "link": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/"
+  },
+  {
+   "fecha": "2026-11-18T14:42:44.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "The AI Hype Index: AI is everywhere",
+   "resumen": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered ",
+   "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
+  },
+  {
+   "fecha": "2026-11-18T10:20:30.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "This smell startup says its AI nose is as good as a human’s",
+   "resumen": "In a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analys",
+   "link": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/"
+  },
+  {
+   "fecha": "2026-11-17T22:52:29.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "External sandboxes for coding agents",
+   "resumen": "External sandboxes for coding agents I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause the",
+   "link": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+  },
+  {
+   "fecha": "2026-11-17T22:38:52.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+   "resumen": "GPT‑6.2 Astra and GPT‑6.2 Sol OpenAI: We’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work. They're available in the API as gpt-6.2-astra and gp",
+   "link": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+  },
+  {
+   "fecha": "2026-11-17T16:48:33.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+   "resumen": "Datasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide . I've released a complete rewrite of Datasette Lite using service workers, and it's now almost indistinguishable fro",
+   "link": "https://simonwillison.net/2026/Nov/17/datasette-lite/"
+  },
+  {
+   "fecha": "2026-11-17T14:39:46.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "Research Reports",
+   "resumen": "To access a report, click on the corresponding image below.",
+   "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/"
+  },
+  {
+   "fecha": "2026-11-17T06:16:26.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "Quoting Go Proverbs",
+   "resumen": "A little copying is better than a little dependency. — Go Proverbs , via Tags: go , programming",
+   "link": "https://simonwillison.net/2026/Nov/17/go-proverbs/"
+  },
+  {
+   "fecha": "2026-11-16T23:57:26.000Z",
+   "categoria": "IA",
+   "fuente": "simonwillison.net",
+   "titulo": "llm 0.37.3",
+   "resumen": "Release: llm 0.37.3 A bug fix release for LLM , mainly to cover a problem with the most recent Homebrew package of the software. Homebrew now ships the latest SQLite, 3.54.1 , which includes a fix that broke LLM's logging code . Short versi",
+   "link": "https://simonwillison.net/2026/Nov/16/llm/"
+  },
+  {
+   "fecha": "2026-11-16T18:38:47.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "The open-source movement wants Jensen Huang back",
+   "resumen": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here . On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, a",
+   "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
+  },
+  {
+   "fecha": "2026-11-16T16:04:28.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "Building trustworthy AI by fencing it in, not predicting it",
+   "resumen": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring inte",
+   "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
+  },
+  {
+   "fecha": "2026-11-16T13:00:00.000Z",
+   "categoria": "IA",
+   "fuente": "technologyreview.com",
+   "titulo": "Building AI that can work across the enterprise",
+   "resumen": "For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots to",
+   "link": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/"
+  },
+  {
+   "fecha": "2026-11-23T01:25:53.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+   "resumen": "Three significant backers share what gave them conviction to bet billions on Anthropic.",
+   "link": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/"
+  },
+  {
+   "fecha": "2026-11-23T00:23:31.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "$1 of GPT-5.1 tokens finds new ways around China’s Great Firewall",
+   "resumen": "Researchers have found new ways to evade China’s Great Firewall after spending just $1 worth of tokens. That result appeared last week in a paper titled “CircumVolve: Automated Discovery of Censorship Evasion Strategies Using Large Language",
+   "link": "https://www.theregister.com/security/2026/11/23/1-of-gpt-51-tokens-finds-new-ways-around-chinas-great-firewall/5311532"
+  },
+  {
+   "fecha": "2026-11-22T21:42:48.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "‘You Can See Everything’ has made more than $100M worldwide",
+   "resumen": "The new Elizabeth Holmes documentary is just beginning to roll out internationally.",
+   "link": "https://techcrunch.com/2026/11/22/you-can-see-everything-has-made-more-than-100m-worldwide/"
+  },
+  {
+   "fecha": "2026-11-22T21:14:07.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+   "resumen": "To establish a speed limit on AI development, you need to agree on how to measure speed.",
+   "link": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/"
+  },
+  {
+   "fecha": "2026-11-22T21:00:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "The best apps to make new friends right now",
+   "resumen": "We've compiled a list of friendship apps, from friend discovery platforms like BFF to event-focused ones like Timeleft.",
+   "link": "https://techcrunch.com/2026/11/22/as-people-look-for-ways-to-make-new-friends-here-are-the-apps-promising-to-help/"
+  },
+  {
+   "fecha": "2026-11-22T18:08:43.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Why data centers are at the center of the Big Tech backlash",
+   "resumen": "Journalist Paris Marx unpacks his new book \"Hyperscale.\"",
+   "link": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"
+  },
+  {
+   "fecha": "2026-11-22T17:06:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "TechCrunch Mobility: A/B testing robots vs. humans",
+   "resumen": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.",
+   "link": "https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/"
+  },
+  {
+   "fecha": "2026-11-22T16:08:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "As cars go digital, US consumers pay an extra $12 billion a year for repairs",
+   "resumen": "The computerization of cars comes at a price to US consumers, according to the Public Interest Research Group (PIRG), which says that software fees and other charges faced by mechanics push up garage costs. An investigation by the non-profi",
+   "link": "https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412"
+  },
+  {
+   "fecha": "2026-11-22T15:00:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Can a TV be too large? An investigation",
+   "resumen": "Can a TV be too large? This writer's recent upgrade to a 65-inch OLED came with some unexpected challenges.",
+   "link": "https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/"
+  },
+  {
+   "fecha": "2026-11-22T12:07:41.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "GLP-1 drugs could have a surprisingly large environmental payoff",
+   "resumen": "GLP-1 weight-loss medicines such as Ozempic and Wegovy could affect much more than the waistlines of the people who take them. If widely used, our new research suggests these appetite-suppressing medicines could transform the global food sy",
+   "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/"
+  },
+  {
+   "fecha": "2026-11-22T09:15:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+   "resumen": "BAE Systems is developing a passive radar system it claims could track airborne threats at a fraction of the cost of conventional radar, using existing broadcasts rather than transmitting signals that could reveal its position. The defense ",
+   "link": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023"
+  },
+  {
+   "fecha": "2026-11-21T22:12:41.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Review: Godzilla Minus Zero joins the list of truly stellar sequels",
+   "resumen": "It's a rare thing for a film sequel to match or even surpass its predecessor; The Godfather Part II and Terminator 2: Judgement Day are the best known examples on a pretty short list. Go ahead and add Godzilla Minus Zero to that list. Direc",
+   "link": "https://arstechnica.com/culture/2026/11/review-godzilla-minus-zero-is-everything-we-could-want-in-a-sequel/"
+  },
+  {
+   "fecha": "2026-11-21T21:37:10.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+   "resumen": "Signal is limiting users' ability to take screenshots in both its Android and iOS apps.",
+   "link": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"
+  },
+  {
+   "fecha": "2026-11-21T21:07:42.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "A tale of two Nvidias",
+   "resumen": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+   "link": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"
+  },
+  {
+   "fecha": "2026-11-21T18:44:53.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Trump says reported FBI database hack is ‘not good’",
+   "resumen": "The FBI is reportedly investigating a hack of the National Crime Information Center.",
+   "link": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"
+  },
+  {
+   "fecha": "2026-11-21T17:00:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Here are the top AI agents that can live in your text messages",
+   "resumen": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+   "link": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
+   "fecha": "2026-11-21T16:00:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
+   "resumen": "An actor has licensed his face to a microdrama startup — in a trend that's already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.",
+   "link": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"
+  },
+  {
+   "fecha": "2026-11-21T15:18:29.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Alaska, your next governor is a Wikipedia nerd",
+   "resumen": "Jonathan Kreiss-Tomkins, Alaska's governor-elect, has made more than 13,000 WIkipedia edits.",
+   "link": "https://techcrunch.com/2026/11/21/alaska-your-next-governor-is-a-wikipedia-nerd/"
+  },
+  {
+   "fecha": "2026-11-21T12:01:13.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "“Race realism” isn’t realistic—and it isn’t good science",
+   "resumen": "At this year’s World Economic Forum meeting in Davos, US President Donald Trump stated that people from Somalia have low IQs. “I always say these are low-IQ people,” he said in his speech. His son, Donald Trump Jr, made a similar statement ",
+   "link": "https://arstechnica.com/science/2026/11/race-realism-isnt-realistic-and-it-isnt-good-science/"
+  },
+  {
+   "fecha": "2026-11-21T11:46:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "ChatGPT shrunk down to run on a Super Nintendo",
+   "resumen": "If you’ve ever wondered how small an instance of ChatGPT could get, wonder no longer. Someone has actually rigged up a tiny version of the chatbot to run on a Super Nintendo cartridge. Tech journalist and retro tech enthusiast Benj Edwards ",
+   "link": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418"
+  },
+  {
+   "fecha": "2026-11-20T23:41:14.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Amazon's split personality: AWS embraces bot commerce while main site enforces bans",
+   "resumen": "Amazon is of two minds when it comes to automated purchasing. The ecommerce giant has been busy banning AI shopping agents from accessing its website. Meanwhile, AWS Marketplace has opened its door to bot-based buying. \"Buying software and ",
+   "link": "https://www.theregister.com/ai-and-ml/2026/11/20/amazons-split-personality-aws-embraces-bot-commerce-while-main-site-enforces-bans/5311493"
+  },
+  {
+   "fecha": "2026-11-20T23:28:47.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "PHP 8.6: Things are gonna get a lot more strict around here",
+   "resumen": "On Thursday, PHP version 8.6 was released on its usual yearly schedule, popping up as if the web scripting language hadn’t been under intense scrutiny this past month. For those who missed it: a swarm of unearthed vulnerabilities has plague",
+   "link": "https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486"
+  },
+  {
+   "fecha": "2026-11-20T22:28:24.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Trump FCC declares California isn't allowed to enforce phone service rules",
+   "resumen": "The Federal Communications Commission ordered California to stop enforcing its Carrier of Last Resort (COLR) rules against AT&T, setting up another battle between the Trump administration and California over the state's right to enforce its",
+   "link": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/"
+  },
+  {
+   "fecha": "2026-11-20T22:16:51.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+   "resumen": "The representative in the US House expected to chair the House Intelligence Committee in January, Jim Himes (D-Conn.), has threatened to withhold support for funding government-owned systems from SpaceX amid the ongoing inquiry into the use",
+   "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/"
+  },
+  {
+   "fecha": "2026-11-20T21:58:29.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Google rolls out new search homepage with AI chat history and no search button",
+   "resumen": "Google's flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign t",
+   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/"
+  },
+  {
+   "fecha": "2026-11-20T21:47:10.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "resumen": "Meta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissi",
+   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+  },
+  {
+   "fecha": "2026-11-20T20:59:08.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+   "resumen": "Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensi",
+   "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+  },
+  {
+   "fecha": "2026-11-20T20:58:29.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now",
+   "resumen": "Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That's the vulnerability that honey pots exploit.",
+   "link": "https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/"
+  },
+  {
+   "fecha": "2026-11-20T20:42:04.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Signal slams door on prying AI agents to protect privacy",
+   "resumen": "Signal, the encrypted messaging app, has barred Google Gemini, Apple Siri, and other AI agents from accessing messages unless the user has explicitly granted permission, based on privacy concerns. Citing the screenshot blocking implemented ",
+   "link": "https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"
+  },
+  {
+   "fecha": "2026-11-19T23:37:56.000Z",
+   "categoria": "Sector IT",
+   "fuente": "techcrunch.com",
+   "titulo": "Elon Musk says SpaceX has a plan to eliminate cell phone dead zones",
+   "resumen": "SpaceX CEO Elon Musk said the company has completed the design of a miniature rooftop cell tower that could provide better coverage to mobile phones and eliminate dead zones.",
+   "link": "https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/"
+  },
+  {
+   "fecha": "2026-11-19T22:16:37.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up",
+   "resumen": "In an unprecedented move, Amazon is using its app and website to try to convince shoppers to not support a New York City bill. When I log in to Amazon today, I’m met with a vertical banner that reads: “ATTENTION NYC Council could add up to ",
+   "link": "https://arstechnica.com/tech-policy/2026/11/amazon-takes-its-fight-against-nyc-delivery-bill-to-shoppers-with-in-app-pop-up/"
+  },
+  {
+   "fecha": "2026-11-19T21:19:12.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "MAHA PAC spent more on steak, luxury club than candidates, report shows",
+   "resumen": "In the wake of the Make America Healthy Again movement's midterm wipeout , a top leader suggested the heavy losses came down to being outspent by wealthier, more powerful rivals. But a Stat report on MAHA's own spending in the run-up to the",
+   "link": "https://arstechnica.com/health/2026/11/maha-pac-spent-more-on-steak-luxury-club-than-candidates-report-shows/"
+  },
+  {
+   "fecha": "2026-11-19T21:12:33.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Chase, Visa, Mastercard confirm third-party cyberattacks that may have exposed customers' info",
+   "resumen": "JPMorgan Chase, Visa, and Mastercard have all confirmed that they are investigating third-party breaches that may involve customer information after a data-theft-and-extortion gang claimed to have compromised the financial giants. “Visa is ",
+   "link": "https://www.theregister.com/security/2026/11/19/chase-visa-mastercard-confirm-third-party-cyberattacks-that-may-have-exposed-customers-info/5311175"
+  },
+  {
+   "fecha": "2026-11-19T20:29:46.000Z",
+   "categoria": "Sector IT",
+   "fuente": "arstechnica.com",
+   "titulo": "Man hired by Russia spied on Silicon Valley tech and defense company, feds say",
+   "resumen": "A Russian national has been indicted on suspicions he was a Russian spy who stalked and surveilled employees of a Silicon Valley company that was assisting Ukraine in its ongoing war with its eastern neighbor. Igor D’iu, 25, allegedly photo",
+   "link": "https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/"
+  },
+  {
+   "fecha": "2026-11-19T20:00:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Palo Alto Networks opens wallet for open-weight training biz",
+   "resumen": "As AI has become a thorn in the side of the security industry, Palo Alto Networks (PAN) has reached an agreement to acquire Applied Compute, an AI model training platform. \"We believe many of the major disruptions of the last few weeks, inc",
+   "link": "https://www.theregister.com/ai-and-ml/2026/11/19/palo-alto-networks-opens-wallet-for-open-weight-training-biz/5311168"
+  },
+  {
+   "fecha": "2026-11-19T18:52:53.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Nvidia adds possible hack to list of very bad things under investigation",
+   "resumen": "Finding a new CEO is just one of their problems. Nvidia is investigating an alleged breach following claims by ransomware group The Gentlemen's affiliates that they hacked the AI giant and stole sensitive information. The embattled chipmake",
+   "link": "https://www.theregister.com/security/2026/11/19/nvidia-adds-possible-hack-to-list-of-very-bad-things-under-investigation/5311153"
+  },
+  {
+   "fecha": "2026-11-19T18:35:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "XXRI-OS explores the lowest end of the Linux desktop",
+   "resumen": "New Linux distros seem to appear daily, but far too few distinguish themselves by being smaller and simpler. XXRI OS is a fairly new desktop Linux distro. It has a snazzy-looking website, complete with an amusing URL, and along similar line",
+   "link": "https://www.theregister.com/os-platforms/2026/11/19/xxri-os-explores-the-lowest-end-of-the-linux-desktop/5311036"
+  },
+  {
+   "fecha": "2026-11-19T17:09:45.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Anthropic throws open doors at $2T valuation as shares pop 34% in initial trading",
+   "resumen": "Welcome to the world of public AI frontier labs: Anthropic is now a publicly-held company with its Thursday IPO, and investors are clamoring for a piece of the pie, for now anyway. That $83 IPO price didn’t last long, with shares rocketing ",
+   "link": "https://www.theregister.com/ai-and-ml/2026/11/19/anthropic-throws-open-doors-at-2t-valuation-as-shares-pop-34-in-initial-trading/5311143"
+  },
+  {
+   "fecha": "2026-11-18T22:38:12.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Another critical PHP security release has dropped",
+   "resumen": "Apologies in advance to all patch managers and security teams that thought they might get a break this week. The PHP Foundation has released several more patches, covering all supported versions, and including at least one rated “critical.”",
+   "link": "https://www.theregister.com/patches/2026/11/18/another-critical-php-security-release-has-dropped/5310911"
+  },
+  {
+   "fecha": "2026-11-18T21:40:09.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Anthropic decides to go head-to-head with GTA VI release, schedules IPO for the same day",
+   "resumen": "Well, it’s official: Anthropic will become the first publicly-traded frontier AI lab in history come the opening of markets on Thursday. The company kicked off its IPO roadshow last week, announcing plans to offer 825 million shares with an",
+   "link": "https://www.theregister.com/ai-and-ml/2026/11/18/anthropic-decides-to-go-head-to-head-with-gta-vi-release-schedules-ipo-for-the-same-day/5310872"
+  },
+  {
+   "fecha": "2026-11-18T21:11:04.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "AI found more critical bugs in another widely used technology running 225M websites",
+   "resumen": "Hot on the heels of serious vulnerabilities in seemingly every other widely used software powering the entire internet, F5 today released emergency patches for 10 bugs in open source NGINX. These include critical remote code execution flaws",
+   "link": "https://www.theregister.com/security/2026/11/18/ai-found-more-critical-bugs-in-another-widely-used-technology-running-225m-websites/5310887"
+  },
+  {
+   "fecha": "2026-11-18T20:15:44.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "To rank the world's biggest supercomputers, we're gonna need a bigger bench",
+   "resumen": "For decades, the Top500 list has tirelessly ranked the world’s biggest, most powerful, and often most unique publicly-known supercomputers. With the rise of generative AI, the list no longer lives up to its name. China’s Lineshine supercomp",
+   "link": "https://www.theregister.com/hpc/2026/11/18/to-rank-the-worlds-biggest-supercomputers-were-gonna-need-a-bigger-bench/5310878"
+  },
+  {
+   "fecha": "2026-11-18T17:45:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "California tells Waymo to take the next exit after freeway mishaps",
+   "resumen": "Waymo has suspended driverless freeway rides across the US after California regulators intervened over robotaxis entering construction zones and trying to bypass highway patrol vehicles. California's DMV banned Waymo from offering driverles",
+   "link": "https://www.theregister.com/security/2026/11/18/california-tells-waymo-to-take-the-next-exit-after-freeway-mishaps/5310841"
+  },
+  {
+   "fecha": "2026-11-18T17:23:37.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "Microsoft's official Python agent framework hijacked to distribute malware",
+   "resumen": "Microsoft’s official agent framework package hosted on PyPI has been hijacked and now installs info-stealing malware, multiple security research firms have discovered. CEO Satya Nadella may be on stage trying to wow investors and customers ",
+   "link": "https://www.theregister.com/security/2026/11/18/microsofts-official-python-agent-framework-hijacked-to-distribute-malware/5310858"
+  },
+  {
+   "fecha": "2026-11-18T17:02:00.000Z",
+   "categoria": "Sector IT",
+   "fuente": "theregister.com",
+   "titulo": "MongoDB snaps up Firebolt to bring transactions and analytics under one roof",
+   "resumen": "MongoDB has acquired analytical database specialist Firebolt in another attempt to bring transactional and analytical workloads onto one platform. The document database vendor carved out its patch of the database market with flexible, JSON-",
+   "link": "https://www.theregister.com/databases/2026/11/18/mongodb-snaps-up-firebolt-to-bring-transactions-and-analytics-under-one-roof/5310809"
+  },
+  {
+   "fecha": "2026-11-20T21:34:36.000Z",
+   "categoria": "Geopolítica",
+   "fuente": "therecord.media",
+   "titulo": "West Virginia Legislature hit with cyber incident affecting IT systems",
+   "resumen": "A cybersecurity incident that began Thursday was still ongoing Friday in the West Virginia Legislature. A spokesperson said the disruption did not spread to other government entities.",
+   "link": "https://therecord.media/west-virginia-legislature-cyberattack"
+  },
+  {
+   "fecha": "2026-11-20T20:25:00.000Z",
+   "categoria": "Geopolítica",
+   "fuente": "therecord.media",
+   "titulo": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+   "resumen": "An investigation led by the House Homeland Security Committee focused on the dangers of U.S. companies using lower-cost open weight AI models for certain projects.",
+   "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation"
+  },
+  {
+   "fecha": "2026-11-20T19:32:00.000Z",
+   "categoria": "Geopolítica",
+   "fuente": "therecord.media",
+   "titulo": "Container Store restores systems after cyberattack",
+   "resumen": "The firm’s parent company, Neighborhood Intelligence, said in a statement that The Container Store has “restored its website and systems following a cybersecurity incident this past weekend.”",
+   "link": "https://therecord.media/container-store-restores-systems-cyberattack"
+  },
+  {
+   "fecha": "2026-11-20T17:30:00.000Z",
+   "categoria": "Geopolítica",
+   "fuente": "therecord.media",
+   "titulo": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+   "resumen": "A China-linked threat actor used the open source AI penetration testing tool Cairn to persistently attack two universities, and in one case, possibly discover a zero-day bug, researchers said.",
+   "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day"
+  },
+  {
+   "fecha": "2026-11-20T16:06:00.000Z",
+   "categoria": "Geopolítica",
+   "fuente": "therecord.media",
+   "titulo": "NSA resumes normal operations following internal network disruptions",
+   "resumen": "Certain facilities remain under “Code Orange” for non-essential employees, meaning delayed openings and some must check in with their supervisors.",
+   "link": "https://therecord.media/nsa-resumes-normal-operations-following-internal-disruptions"
+  },
+  {
+   "fecha": "2026-11-23T03:12:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "Francia encarga 72.000 fusiles HK416F con supresores y visores: una nueva etapa para el sustituto del FAMAS",
+   "resumen": "Francia ha contratado 72.000 fusiles de asalto HK416F adicionales, junto con supresores de sonido y visores ópticos, para reforzar y actualizar el armamento individual de sus Fuerzas Armadas.",
+   "link": "http://www.defensa.com/otan-y-europa/francia-encarga-72-000-fusiles-hk416f-supresores-visores-nueva"
+  },
+  {
+   "fecha": "2026-11-22T22:26:09.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase",
+   "resumen": "A Russian Navy corvette burned and capsized after being struck by Ukrainian uncrewed service vessels (USVs) while docked in Benghazi, Libya. In addition, a Russian cargo ship was struck by Ukrainian USVs while operating off Benghazi in the ",
+   "link": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase"
+  },
+  {
+   "fecha": "2026-11-22T22:00:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "Perú explora nuevas capacidades militares en Israel y abre la puerta a tecnologías de drones y defensa electrónica",
+   "resumen": "Una delegación de altos funcionarios del Ministerio del Interior de Perú y de otros organismos gubernamentales realizó recientemente una visita a Israel para mantener encuentros con empresas de la industria de defensa local. Según pudo cono",
+   "link": "https://www.zona-militar.com/2026/11/22/peru-explora-nuevas-capacidades-militares-en-israel-y-abre-la-puerta-a-tecnologias-de-drones-y-defensa-electronica/"
+  },
+  {
+   "fecha": "2026-11-22T21:20:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "La Armada y la Fuerza Aérea de Chile operan un P-3 Orión y un Twin Otter en la Antártica",
+   "resumen": "La Armada de Chile y el Instituto de Ciencia y Exploración (ICE) completaron con éxito la sexta campaña aeronaval antártica Hielo VI . La operación consistió en dos vuelos entre Punta Arenas y la Península Antártica a bordo de un avión de p",
+   "link": "http://www.defensa.com/chile/armada-fuerza-aerea-chile-operan-p-3-orion-twin-otter-antartica"
+  },
+  {
+   "fecha": "2026-11-22T21:00:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "Aviones de ataque Super Tucano o drones: el dilema que define el futuro próximo de la Fuerza Aérea Colombiana",
+   "resumen": "Durante más de dos décadas, el A-29B Super Tucano ha sido el caballo de batalla de la aviación de la Fuerza Aérea Colombiana frente a los grupos armados ilegales con una flota compuesta de 24 aeronaves sigue en primera línea, como se vio en",
+   "link": "https://www.zona-militar.com/2026/11/22/aviones-de-ataque-super-tucano-o-drones-el-dilema-que-define-el-futuro-proximo-de-la-fuerza-aerea-colombiana/"
+  },
+  {
+   "fecha": "2026-11-22T20:50:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "Chile y Japón firman Carta de Intenciones para profundizar la cooperación en defensa",
+   "resumen": "El ministro de Defensa Nacional, Fernando Barros, y su homólogo japonés, Shinjiro Koizumi, firmaron este viernes 20 de noviembre en el Ministerio de Defensa de Japón una Carta de Intenciones sobre Cooperación e Intercambios en Materia de De",
+   "link": "http://www.defensa.com/chile/chile-japon-firman-carta-intenciones-para-profundizar-defensa"
+  },
+  {
+   "fecha": "2026-11-22T20:40:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "Chile firma un memorándum con el FBI para reforzar la cooperación contra el crimen organizado transnacional",
+   "resumen": "La Policía de Investigaciones de Chile (PDI) y la Oficina Federal de Investigación ( FBI ) de Estados Unidos suscribieron un Memorándum de Entendimiento orientado a fortalecer el intercambio de información, la inteligencia policial, las inv",
+   "link": "http://www.defensa.com/chile/chile-estados-unidos-firman-memorandum-entre-pdi-fbi-para-contra"
+  },
+  {
+   "fecha": "2026-11-21T21:03:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "El retorno de Iberoamérica",
+   "resumen": "A lo largo de la primera quincena de este mes de noviembre, Iberoamérica ha estado en los titulares y en las primeras páginas de los medios de comunicación, ya sea por las actividades y declaraciones que se han hecho dentro y alrededor de l",
+   "link": "http://www.defensa.com/opinion/el-retorno-de-iberoamerica"
+  },
+  {
+   "fecha": "2026-11-21T21:00:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "Tras comprar un nuevo C-27J NG, Perú garantizó el sostenimiento de largo plazo para sus Spartan con nuevos acuerdos",
+   "resumen": "La Fuerza Aérea del Perú (FAP) y la compañía italiana Leonardo formalizaron un nuevo acuerdo de soporte logístico de largo plazo para su flota de aviones de transporte táctico C-27J Spartan. El contrato, suscripto durante la feria DACS 2026",
+   "link": "https://www.zona-militar.com/2026/11/21/tras-comprar-un-nuevo-c-27j-ng-peru-garantizo-el-sostenimiento-de-largo-plazo-para-sus-spartan-con-nuevos-acuerdos/"
+  },
+  {
+   "fecha": "2026-11-21T20:10:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "La inteligencia artificial y el arte de la guerra",
+   "resumen": "La historia de la guerra es, en buena medida, la historia de la voluntad de los seres humanos y de las naciones para imponerse unas a otras. Las innovaciones fueron cambiando la manera de combatir, a medida que la tecnología fue avanzando y",
+   "link": "http://www.defensa.com/opinion/inteligencia-artificial-arte-guerra"
+  },
+  {
+   "fecha": "2026-11-21T20:00:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "Presupuesto de Defensa 2027: el desafío de Chile de transformar recursos en capacidades estrátegica para Chile",
+   "resumen": "La aprobación de la partida del Ministerio de Defensa Nacional en la Cámara de Diputados representa una señal de respaldo político al financiamiento de las Fuerzas Armadas de hile y los organismos dependientes del sector. Sin embargo, más a",
+   "link": "https://www.zona-militar.com/2026/11/21/presupuesto-de-defensa-2027-el-desafio-de-chile-de-transformar-recursos-en-capacidades-estrategica-para-chile/"
+  },
+  {
+   "fecha": "2026-11-21T19:30:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "Del crucero Garibaldi a los primeros submarinos: 130 años de relación entre la Argentina e Italia impulsan la modernización de la Armada",
+   "resumen": "Con la renovación de la Flota de Mar en agenda, la Armada Argentina vuelve a mirar hacia los astilleros de Italia, donde hace 130 años recibió el crucero acorazado Garibaldi y donde más tarde se construyeron sus primeros sumergibles. El 18 ",
+   "link": "https://www.zona-militar.com/2026/11/21/del-crucero-garibaldi-a-los-primeros-submarinos-130-anos-de-relacion-entre-la-argentina-e-italia-impulsan-la-modernizacion-de-la-armada/"
+  },
+  {
+   "fecha": "2026-11-21T18:11:09.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
+   "resumen": "Reinforcements and relief have arrived in the Middle East. USS Theodore Roosevelt chopped into the 5th Fleet-U.S. Central Command (CENTCOM) area of responsibility (AOR) and was pictured sailing alongside USS George Washington in the Arabian",
+   "link": "https://www.twz.com/sea/theodore-roosevelt-strike-group-arrives-in-the-middle-east-relieving-uss-george-washington"
+  },
+  {
+   "fecha": "2026-11-20T23:52:57.000Z",
+   "categoria": "Defensa",
+   "fuente": "breakingdefense.com",
+   "titulo": "Air Force issues massive $16B contract for engine work to dozens of companies",
+   "resumen": "A Pentagon notice said 58 companies were selected to participate in a broad contract for “advanced propulsion enterprise work” through 2041.",
+   "link": "https://breakingdefense.com/2026/11/air-force-issues-massive-16b-contract-for-engine-work-to-dozens-of-companies/"
+  },
+  {
+   "fecha": "2026-11-20T23:12:57.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "resumen": "Welcome to Bunker Talk. This is a weekend open discussion post for the best commenting crew on the net, in which we can chat about all the stuff that went on this week that we didn’t cover. We can also talk about the stuff we did or whateve",
+   "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-216"
+  },
+  {
+   "fecha": "2026-11-20T22:39:44.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "There Is More To Air Force One’s Long Flight From China Than Just Breaking Records",
+   "resumen": "Just back from his trip to Shenzhen, where he met with leaders from China and Russia , President Donald Trump boasted about the U.S. Air Force’s new VC-25B Bridge aircraft that took him home. The return from China was “the longest flight ev",
+   "link": "https://www.twz.com/air/there-is-more-to-air-force-ones-long-flight-from-china-than-just-breaking-records"
+  },
+  {
+   "fecha": "2026-11-20T22:30:27.000Z",
+   "categoria": "Defensa",
+   "fuente": "zona-militar.com",
+   "titulo": "La finlandesa ICEYE ofrece su avanzado sistema de satélites Gen5 para modernizar el programa PerúSAT de CONIDA",
+   "resumen": "La finlandesa ICEYE, especializada en tecnología de inteligencia soberana, anunció su sistema de satélites de radar de apertura sintética Gen5 como propuesta para modernizar el programa PerúSAT de la Agencia Espacial del Perú (CONIDA), lanz",
+   "link": "https://www.zona-militar.com/2026/11/20/la-finlandesa-iceye-ofrece-su-avanzado-sistema-de-satelites-gen5-para-modernizar-el-programa-perusat-de-conida/"
+  },
+  {
+   "fecha": "2026-11-20T21:26:26.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Oddball CFL-120 Karpat Medium Tank With A Big Gun Faces A Battlefield Increasingly Hostile To Armor",
+   "resumen": "An intriguing new Slovak-Turkish medium tank, the CFL-120 Karpat is designed to appeal to militaries unable to afford or field heavier main battle tanks (MBTs) or have requirements for something lighter and more nimble. But the Karpat arriv",
+   "link": "https://www.twz.com/land/oddball-cfl-120-karpat-medium-tank-with-a-big-120mm-gun-faces-a-battlefield-increasingly-hostile-to-armor"
+  },
+  {
+   "fecha": "2026-11-20T21:00:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "defensa.com",
+   "titulo": "Raytheon prueba un cohete para entrenar con HIMARS: 24 proyectiles y un contenedor reutilizable",
+   "resumen": "Raytheon ha completado el tercer ensayo de vuelo satisfactorio de su DeepStrike JR3, la propuesta con la que aspira a sustituir el actual cohete de prácticas de alcance reducido del Ejército de Estados Unidos.",
+   "link": "http://www.defensa.com/otan-y-europa/raytheon-prueba-cohete-para-entrenar-himars-24-proyectiles"
+  },
+  {
+   "fecha": "2026-11-19T22:08:02.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters",
+   "resumen": "Regent has reached a deal to sell an unspecified number of its autonomous Squire Seagliders to a U.S. government customer, Regent CEO Billy Thalheimer announced on X . The electric-powered drones will make up “a small fleet that will be dep",
+   "link": "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters"
+  },
+  {
+   "fecha": "2026-11-19T21:08:27.000Z",
+   "categoria": "Defensa",
+   "fuente": "breakingdefense.com",
+   "titulo": "Toti pushes new foreign-built shipyard in the US to focus on frigates, large surface combatants",
+   "resumen": "Foreign shipbuilding has emerged as a sticking point between Congress and the Trump administration, with the administration pushing for an expansion of the so-called “Finland model.”",
+   "link": "https://breakingdefense.com/2026/11/toti-pushes-new-foreign-built-shipyard-in-the-us-to-focus-on-frigates-large-surface-combatants/"
+  },
+  {
+   "fecha": "2026-11-19T20:35:59.000Z",
+   "categoria": "Defensa",
+   "fuente": "navalnews.com",
+   "titulo": "Argentine Navy interested in acquiring up to three FCX20 corvettes",
+   "resumen": "The Argentine Navy has expressed its interest in acquiring up to three FCX20 corvettes developed by Fincantieri, in full configuration and including an Integrated Logistic Support (ILS) package. Fincantieri press release The interest was fo",
+   "link": "https://www.navalnews.com/naval-news/2026/11/argentine-navy-interested-in-acquiring-up-to-three-fcx20-corvettes/"
+  },
+  {
+   "fecha": "2026-11-19T19:57:54.000Z",
+   "categoria": "Defensa",
+   "fuente": "c4isrnet.com",
+   "titulo": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26",
+   "resumen": "The visceral threat of cheap drones delivering pinpoint, guided anti-personnel munitions continues to spawn new protection systems. Plus, an interview with a Medal of Honor recipient.",
+   "link": "https://www.c4isrnet.com/videos/2026/11/19/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/"
+  },
+  {
+   "fecha": "2026-11-19T19:54:46.000Z",
+   "categoria": "Defensa",
+   "fuente": "breakingdefense.com",
+   "titulo": "Candidates are lining up to be the next top HASC Republican.",
+   "resumen": "With Democrats preparing to take control of the House Armed Services Committee, a Republican leadership race could shape the next round of Pentagon oversight.",
+   "link": "https://breakingdefense.com/2026/11/new-leadership-new-tensions-for-top-house-defense-panel/"
+  },
+  {
+   "fecha": "2026-11-19T19:05:27.000Z",
+   "categoria": "Defensa",
+   "fuente": "navalnews.com",
+   "titulo": "U.S. Senate Seeks to Exchange Shipbuilding Funds for More Munitions",
+   "resumen": "The U.S. Senate’s Appropriations Committee for Defense released it’s proposal of the National Defense Appropriation Act (NDAA) for Fiscal year 2027, revealing the chamber’s funding priorities within the Navy. Detailed in a simultaneously pu",
+   "link": "https://www.navalnews.com/naval-news/2026/11/u-s-senate-seeks-to-exchange-shipbuilding-funds-for-more-munitions/"
+  },
+  {
+   "fecha": "2026-11-18T22:06:41.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
+   "resumen": "Amid stalled efforts to find a diplomatic solution to the conflict between the U.S. and Iran, the Islamic Republic is stepping up attacks on Kuwait and Bahrain, two nations that host American bases. Wednesday’s strikes took place after the ",
+   "link": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island"
+  },
+  {
+   "fecha": "2026-11-18T21:50:08.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Europe Is Exploring Orbital Deep Strike Weapons",
+   "resumen": "Europe is beginning to explore the possibility of delivering conventional military payloads from orbit , with the German arm of defense behemoth MBDA and space transportation company ATMOS Space Cargo teaming up to investigate a concept kno",
+   "link": "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons"
+  },
+  {
+   "fecha": "2026-11-18T21:43:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Counter-UAS system combines mobile sensor cueing with Bushmaster cannon",
+   "resumen": "PLYMOUTH, Minnesota. Northrop Grumman demonstrated a mobile counter-uncrewed aircraft system (C-UAS) setup that combined its Mobile Acquisition Cueing and Effector (M-ACE) system with a Bushmaster Chain Gun during a live-fire exercise, the ",
+   "link": "https://militaryembedded.com/unmanned/counter-uas/counter-uas-system-combines-mobile-sensor-cueing-with-bushmaster-cannon"
+  },
+  {
+   "fecha": "2026-11-18T21:41:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Passive radar uses television and mobile signals to track airborne targets",
+   "resumen": "LONDON, United Kingdom. BAE Systems developed a passive radar system that uses existing television, radio, and mobile-network signals to detect and track airborne targets without transmitting its own radio-frequency signal, the company anno",
+   "link": "https://militaryembedded.com/radar-ew/sensors/passive-radar-uses-television-and-mobile-signals-to-track-airborne-targets"
+  },
+  {
+   "fecha": "2026-11-18T21:36:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "F-35 simulators connect with live F/A-18 aircraft in Navy training test",
+   "resumen": "LEMOORE, California. Four F-35 full-mission simulators at Naval Air Station Lemoore connected in real time with six airborne F/A-18 aircraft during a U.S. Navy training demonstration, Lockheed Martin announced in a statement.",
+   "link": "https://militaryembedded.com/avionics/displays/f-35-simulators-connect-with-live-fa-18-aircraft-in-navy-training-test"
+  },
+  {
+   "fecha": "2026-11-18T19:03:37.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Flying Stripped-Down F-15 “Silver Eagles” To Their Limits",
+   "resumen": "Driving across the vast flightline at Robins Air Force Base in Georgia, a prominent hangar bears the title “Welcome to Eagle Country.” A row of nearby smaller ‘barn’ hangars each reveals the telltale silhouette of an F-15 inside it, which o",
+   "link": "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits"
+  },
+  {
+   "fecha": "2026-11-17T23:39:58.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Russian Tu-95 Bombers Arrive In Vietnam After Flurry Of Northeast Asia Air Alerts",
+   "resumen": "Russia has sent a pair of Tu-95MS Bear bombers for a rare visit to Vietnam. Unusually, the aircraft appear to have briefly intruded into Japanese airspace and passed through Taiwan’s Air Defense Identification Zone (ADIZ) along the way. The",
+   "link": "https://www.twz.com/air/russian-bombers-arrive-in-vietnam-after-flurry-of-northeast-asia-air-alerts"
+  },
+  {
+   "fecha": "2026-11-17T22:29:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Small hardware, big abuse: designing interconnects around real use",
+   "resumen": "Miniaturization is often sold as a clean engineering win: smaller assemblies, lower weight, tighter packaging. In practice, shrinking the hardware changes what breaks and how it breaks. The environment still matters – shock, vibration, ther",
+   "link": "https://militaryembedded.com/radar-ew/rugged-computing/small-hardware-big-abuse-designing-interconnects-around-real-use"
+  },
+  {
+   "fecha": "2026-11-17T22:16:24.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair",
+   "resumen": "Senator Roger Wicker, the current chairman of the Senate Armed Services Committee, has said unequivocally that the idea of bringing back steam-powered catapults on U.S. Navy aircraft carriers is a “non-starter.” Earlier this year, President",
+   "link": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair"
+  },
+  {
+   "fecha": "2026-11-17T20:31:20.000Z",
+   "categoria": "Defensa",
+   "fuente": "c4isrnet.com",
+   "titulo": "Watch a large aerial drone evacuate a wounded Ukrainian soldier from the front line",
+   "resumen": "Ukraine is expanding its use of large drones for battlefield medical evacuations. Watch as a Ukrainian team uses an aerial drone to transport a wounded soldier from a forward position to a field hospital.",
+   "link": "https://www.c4isrnet.com/videos/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/"
+  },
+  {
+   "fecha": "2026-11-17T19:22:29.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "These Are The Weapons Ukraine Used To Drop The Kerch Bridge",
+   "resumen": "Ukraine has revealed a remarkably diverse collection of domestically developed weapons, and at least two foreign-supplied ones, used in its latest attack on the Kerch Bridge , the critical road and rail link connecting occupied Crimea with ",
+   "link": "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge"
+  },
+  {
+   "fecha": "2026-11-17T19:10:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Spectrum exercise focuses on EW resilience, uncrewed operations",
+   "resumen": "NATIONAL ALL-DOMAIN WARFIGHTING CENTER, Mich. As part of the Silent Swarm 26 exercise, held during July 2026, Silvus Technologies tested the advanced electronic warfare (EW) resilience of its StreamCaster MANET under operationally relevant,",
+   "link": "https://militaryembedded.com/comms/spectrum-management/spectrum-exercise-focuses-on-ew-resilience-uncrewed-operations"
+  },
+  {
+   "fecha": "2026-11-16T21:15:24.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "U.S. Army Now Wants Concrete Bunkers For Troops In Israel, Saudi Arabia And Lebanon",
+   "resumen": "In order to better protect personnel, U.S. Army Central (ARCENT) is looking to replace converted shipping containers with concrete bunkers as shelters at several locations in Israel, Lebanon and Saudi Arabia. The effort underscores question",
+   "link": "https://www.twz.com/news-features/u-s-army-now-wants-concrete-bunkers-for-troops-in-israel-saudi-arabia-and-lebanon"
+  },
+  {
+   "fecha": "2026-11-16T20:24:52.000Z",
+   "categoria": "Defensa",
+   "fuente": "twz.com",
+   "titulo": "New Bow Sonar Dome For Heavily Damaged Submarine USS Connecticut Seen For The First Time (Updated)",
+   "resumen": "TWZ has obtained new details about the ongoing repairs to the Seawolf class submarine USS Connecticut following collision with an underwater seamount in the South China Sea in 2021. The Navy had been looking at a roughly three-year timeline",
+   "link": "https://www.twz.com/sea/new-bow-sonar-dome-for-heavily-damaged-submarine-uss-connecticut-seen-for-the-first-time"
+  },
+  {
+   "fecha": "2026-11-16T17:21:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Uncrewed logistics and reconnaissance systems tested in Swiss urban combat exercise",
+   "resumen": "BRUSSELS, Belgium. The European Defence Agency (EDA) and Swiss armed forces tested aerial drones and uncrewed ground vehicles during an urban-combat logistics exercise in Switzerland, examining their ability to resupply troops, evacuate cas",
+   "link": "https://militaryembedded.com/unmanned/test/uncrewed-logistics-and-reconnaissance-systems-tested-in-swiss-urban-combat-exercise"
+  },
+  {
+   "fecha": "2026-11-16T17:20:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "B-21 Raider advances into weapons-release testing",
+   "resumen": "EDWARDS AIR FORCE BASE, California. Northrop Grumman’s B-21 Raider completed a weapons-release demonstration as the aircraft moves through flight testing toward future operational capability, the company announced in a statement.",
+   "link": "https://militaryembedded.com/avionics/software/b-21-raider-advances-into-weapons-release-testing"
+  },
+  {
+   "fecha": "2026-11-16T17:18:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Spacecraft bus selected for NASA PRIMA far-infrared observatory",
+   "resumen": "FALLS CHURCH, Virginia. BAE Systems will provide its Evolve+ spacecraft bus and lead observatory integration, testing, operations, and ground support for NASA’s PRIMA far-infrared astrophysics mission as the program moves into its next deve",
+   "link": "https://militaryembedded.com/comms/satellites/spacecraft-bus-selected-for-nasa-prima-far-infrared-observatory"
+  },
+  {
+   "fecha": "2026-11-16T17:09:00.000Z",
+   "categoria": "Defensa",
+   "fuente": "militaryembedded.com",
+   "titulo": "Space-based target indicator contract granted by U.S. Space Force",
+   "resumen": "ARLINGTON, Va . The U.S. Space Force named several companies -- STR, Rocket Lab, and a third unnamed firm -- in a contract with the Space Force Space-Based Sensing and Targeting (SBST) Portfolio Acquisition Executive under which the compani",
+   "link": "https://militaryembedded.com/radar-ew/sensors/space-based-target-indicator-contract-granted-by-us-space-force"
+  },
+  {
+   "fecha": "2026-11-22T21:50:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Ciberseguridad en alerta tras la salida del asesor clave de la Casa Blanca",
+   "resumen": "El gobierno estadounidense removió a su director de ciberseguridad tras una cadena de colapsos en servidores, bancos y vuelos internos",
+   "link": "https://www.iprofesional.com/tecnologia/469649-ciberseguridad-en-alerta-tras-la-salida-del-asesor-clave-de-la-casa-blanca"
+  },
+  {
+   "fecha": "2026-11-22T21:40:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Cómo activar Starlink en Argentina y solucionar los problemas de registro",
+   "resumen": "Para poner en marcha Starlink, la clave está en elegir una ubicación despejada para la antena, completar el registro y configurar la red Wi-Fi.",
+   "link": "https://www.iprofesional.com/tecnologia/468765-como-activar-starlink-en-la-argentina-paso-a-paso-y-resolver-errores"
+  },
+  {
+   "fecha": "2026-11-22T21:40:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Qué caídas informáticas recientes fueron fallas y cuáles fueron ataques reales",
+   "resumen": "Con tantos episodios juntos, en las redes sociales se instaló enseguida la sospecha de un ciberataque coordinado. Los datos muestran otra cosa.",
+   "link": "https://www.iprofesional.com/tecnologia/469639-que-caidas-informaticas-recientes-fueron-fallas-y-cuales-fueron-ataques"
+  },
+  {
+   "fecha": "2026-11-22T21:40:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Criminales usan inteligencia artificial para vulnerar sistemas de grandes empresas",
+   "resumen": "Los sistemas automáticos vulneran software en minutos, eluden defensas a través de prestadores tercerizados y extorsionan a corporaciones",
+   "link": "https://www.iprofesional.com/tecnologia/469656-la-inteligencia-artificial-acelera-intrusiones-contra-empresas-globales"
+  },
+  {
+   "fecha": "2026-11-22T19:07:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Alerta inversores: el dólar golpea al carry trade, el Gobierno se aferra a las \"anclas\" y los activos sufren el \"fly to quality\"",
+   "resumen": "La presión cambiaria y un escenario internacional adverso golpean a los activos argentinos. Pese a los superávits fiscal y comercial, crecen las dudas sobre la acumulación de reservas y la capacidad del Gobierno para afrontar la deuda de 20",
+   "link": "https://www.ambito.com/finanzas/alerta-inversores-el-dolar-golpea-al-carry-trade-el-gobierno-se-aferra-las-anclas-y-los-activos-sufren-el-fly-to-quality-n6348054"
+  },
+  {
+   "fecha": "2026-11-22T13:53:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Un experimente sin ChatGPT midió menos soledad y más trato cara a cara",
+   "resumen": "Usuarios habituales de inteligencia artificial lo abandonaron por unos días. El resultado fue muy llamativo, especialmente en el ámbito social",
+   "link": "https://www.iprofesional.com/actualidad/469754-un-experimento-sin-usar-chatgpt-genero-llamativos-resultados-sociales"
+  },
+  {
+   "fecha": "2026-11-20T23:42:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Caen acciones de Anthropic, dueña de Claude, tras su eufórico debut en Wall Street",
+   "resumen": "La firma había conseguido una recaudación récord de u$s93.500 millones en su OPI, pero las dudas sobre el negocio de la IA golpearon sus acciones",
+   "link": "https://www.iprofesional.com/negocios/469715-cuanta-plata-perdio-anthropic-duena-de-claude-tras-euforico-debut-en-bolsa-wall-street"
+  },
+  {
+   "fecha": "2026-11-20T22:59:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El dólar oficial tuvo su mayor suba semanal en 19 meses: minorista superó los $1.600 y la brecha con el CCL rozó el 14%",
+   "resumen": "Tanto el tipo de cambio oficial como los paralelos treparon fuerte en la semana, en sintonía con una devaluación generalizada de las monedas regionales. El peso colombiano y el real brasileño fueron las que más se depreciaron.",
+   "link": "https://www.ambito.com/finanzas/el-dolar-oficial-intensifica-su-rally-alcista-y-el-mercado-mira-cerca-la-brecha-el-ccl-n6347487"
+  },
+  {
+   "fecha": "2026-11-20T22:55:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este viernes 20 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-viernes-20-noviembre-n6347436"
+  },
+  {
+   "fecha": "2026-11-20T22:23:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "El GTA VI alcanzó ventas por u$s3.790 millones en el primer día y rompió todos los récords",
+   "resumen": "El videojuego de Rockstar se coronó como el mayor lanzamiento en la historia del sector y la crítica especializada lo recibió con muchos elogios",
+   "link": "https://www.iprofesional.com/tecnologia/469705-el-gta-vi-alcanzo-ventas-por-3790-millones-dolares-en-el-primer-dia-y-rompio-todos-los-records"
+  },
+  {
+   "fecha": "2026-11-20T22:20:24.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy: a cuánto cerró este viernes 20 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347715"
+  },
+  {
+   "fecha": "2026-11-20T21:01:13.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar blue hoy: a cuánto cerró este viernes 20 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-viernes-20-noviembre-n6347716"
+  },
+  {
+   "fecha": "2026-11-19T22:32:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este jueves 19 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-jueves-19-noviembre-n6346965"
+  },
+  {
+   "fecha": "2026-11-19T21:48:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El dólar blue subió por quinta rueda consecutiva y va camino a su mayor avance semanal en más de un año",
+   "resumen": "El dólar informal avanzó otros $10 y alcanzó un nuevo récord nominal de $1.640. En lo que va de la semana acumula un salto de $65, equivalente al 4,1%, mientras que la brecha con el tipo de cambio mayorista se ubica en el 4,9%.",
+   "link": "https://www.ambito.com/finanzas/el-dolar-blue-subio-quinta-rueda-consecutiva-y-va-camino-su-mayor-avance-semanal-mas-un-ano-n6347338"
+  },
+  {
+   "fecha": "2026-11-19T21:21:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El oro se desplomó a mínimos de 14 meses por la fortaleza del dólar y el temor a nuevas subas de tasas de la Fed",
+   "resumen": "El metal precioso cayó más de 1% y tocó su menor valor desde septiembre de 2025. La persistencia de la inflación en Estados Unidos llevó al mercado a descontar un nuevo endurecimiento monetario de la Reserva Federal en diciembre.",
+   "link": "https://www.ambito.com/finanzas/el-oro-se-desplomo-minimos-14-meses-la-fortaleza-del-dolar-y-el-temor-nuevas-subas-tasas-la-fed-n6347332"
+  },
+  {
+   "fecha": "2026-11-19T20:43:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El BCRA realizó la menor compra desde el inicio del programa de acumulación: las reservas cayeron más de u$s100 millones",
+   "resumen": "La autoridad monetaria adquirió apenas u$s3 millones, pese a una mayor actividad en el mercado oficial. Las reservas retrocedieron u$s108 millones, afectadas por la caída del oro, mientras el dólar mayorista acumuló su cuarta suba consecuti",
+   "link": "https://www.ambito.com/finanzas/el-bcra-realizo-la-menor-compra-el-inicio-del-programa-acumulacion-las-reservas-cayeron-mas-us100-millones-n6347308"
+  },
+  {
+   "fecha": "2026-11-19T20:38:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Por la caída de fuentes de financiamiento alternativas, la necesidad de comprar reservas subió a u$s12.650 para 2027",
+   "resumen": "En Criteria señalan que ese objetivo puede ser desafiante pero no imposible. No se vislumbran elementos que puedan hacer bajar el riesgo de nuevo a la zona de 400 puntos.",
+   "link": "https://www.ambito.com/finanzas/por-la-caida-fuentes-financiamiento-alternativas-la-necesidad-comprar-reservas-subio-us12650-2027-n6347219"
+  },
+  {
+   "fecha": "2026-11-19T20:25:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "JP Morgan, Visa y Mastercard sufrieron un ciberataque que expuso datos de sus clientes",
+   "resumen": "Datos personales como nombres y direcciones de correo fueron afectados tras una intrusión digital, según informaron voceros de la entidad",
+   "link": "https://www.iprofesional.com/tecnologia/469595-jp-morgan-visa-y-mastercard-sufrieron-un-ciberataque-que-expuso-datos-de-sus-clientes"
+  },
+  {
+   "fecha": "2026-11-18T22:55:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy y dólar blue hoy minuto a minuto: a cuánto opera este miércoles 18 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-y-dolar-blue-hoy-minuto-minuto-cuanto-opera-este-miercoles-18-noviembre-n6346477"
+  },
+  {
+   "fecha": "2026-11-18T22:23:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Los bonos en dólares rebotaron y el riesgo país perforó los 850 puntos, pero los ADRs se hundieron hasta 7%",
+   "resumen": "El Merval avanzó levemente en pesos, pero cayó más de 1% en dólares y acumula una pérdida del 34% desde julio. La mirada del mercado está puesta en el Congreso, la Fed y el escenario internacional. Qué acciones recomiendan los expertos y lo",
+   "link": "https://www.ambito.com/finanzas/los-bonos-dolares-suben-pero-el-riesgo-pais-se-mantiene-encima-los-850-puntos-n6346590"
+  },
+  {
+   "fecha": "2026-11-18T21:34:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar: el BCRA moderó fuerte el ritmo de compras y las reservas bajaron casi u$s200 millones",
+   "resumen": "La autoridad monetaria adquirió apenas u$s11 millones, frente a los u$s74 millones del martes, mientras las reservas retrocedieron u$s190 millones por el impacto de la caída del oro. En paralelo, el dólar mayorista acumuló tres subas consec",
+   "link": "https://www.ambito.com/finanzas/dolar-el-bcra-modero-fuerte-el-ritmo-compras-y-las-reservas-bajaron-casi-us200-millones-n6346854"
+  },
+  {
+   "fecha": "2026-11-18T20:25:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El dólar blue pegó otro salto y ya trepó más de $60 en apenas cuatro días",
+   "resumen": "El paralelo escaló hasta $1.630 para la venta y profundizó la presión compradora que domina las últimas ruedas. Al mismo tiempo, el mayorista volvió a marcar un récord nominal, pero avanzó menos y dejó la brecha en torno a 4,5%.",
+   "link": "https://www.ambito.com/finanzas/el-dolar-blue-pego-otro-salto-y-ya-trepo-mas-60-apenas-cuatro-dias-n6346832"
+  },
+  {
+   "fecha": "2026-11-18T19:05:54.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar blue hoy: a cuánto cerró este miércoles 18 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-miercoles-18-noviembre-n6346802"
+  },
+  {
+   "fecha": "2026-11-18T19:05:37.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy: a cuánto cerró este miércoles 18 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-18-noviembre-n6346801"
+  },
+  {
+   "fecha": "2026-11-17T23:31:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Canje de deuda: Economía logró postergar pagos por $4,4 billones y alivió los vencimientos de fin de mes",
+   "resumen": "Economía lanzó una operación de canje sobre una letra atada al dólar que vence el 30 de este mes y la pasó para el 30 de enero. Tuvo un nivel de aceptación del 60%, el más bajo de los dos últimos meses.",
+   "link": "https://www.ambito.com/finanzas/canje-deuda-economia-logro-postergar-pagos-44-billones-y-alivio-los-vencimientos-fin-mes-n6346380"
+  },
+  {
+   "fecha": "2026-11-17T21:26:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El dólar blue avanzó $40 en tres ruedas, superó los $1.600 y alcanzó un nuevo máximo nominal",
+   "resumen": "El paralelo terminó en $1.605 para la venta y encadenó otra rueda alcista, mientras el mayorista también volvió a marcar un récord nominal. La diferencia entre ambas cotizaciones se amplió a cerca de 3,4%, en un contexto de mayor presión so",
+   "link": "https://www.ambito.com/finanzas/el-dolar-blue-avanzo-40-tres-ruedas-supero-los-1600-y-alcanzo-un-nuevo-maximo-nominal-n6346300"
+  },
+  {
+   "fecha": "2026-11-17T21:24:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Jensen Huang habló tras su salida de Nvidia y dijo que \"sería un honor\" volver como CEO",
+   "resumen": "La investigación por la salida del empresario inició una crisis financiera e institucional en la firma y sumó presiones regulatorias en EEUU",
+   "link": "https://www.iprofesional.com/tecnologia/469382-jensen-huang-hablo-tras-su-salida-de-nvidia-y-dijo-que-seria-un-honor-volver-como-ceo"
+  },
+  {
+   "fecha": "2026-11-17T20:59:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El BCRA aceleró las compras de dólares y las reservas subieron más de u$s275 millones",
+   "resumen": "La autoridad monetaria adquirió u$s74 millones y elevó el saldo positivo de noviembre a u$s330 millones. Las reservas se recuperaron hasta los u$s49.741 millones, pese a la caída del oro, mientras el mayorista alcanzó un nuevo máximo nomina",
+   "link": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345"
+  },
+  {
+   "fecha": "2026-11-17T19:09:17.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar blue hoy: a cuánto cerró este martes 17 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-blue-hoy-cuanto-cerro-este-martes-17-noviembre-n6346286"
+  },
+  {
+   "fecha": "2026-11-17T19:09:10.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "Dólar hoy: a cuánto cerró este martes 17 de noviembre",
+   "resumen": "Conocé las cotizaciones dólar blue, el oficial, el MEP y el CCL.",
+   "link": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-17-noviembre-n6346285"
+  },
+  {
+   "fecha": "2026-11-16T23:34:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "United Airlines no permitirá reservar ni comprar pasajes con IA",
+   "resumen": "La firma restringirá el acceso de asistentes inteligentes a sus plataformas y también a través de agencias de viajes. Qué podrán hacer los usuarios",
+   "link": "https://www.iprofesional.com/tecnologia/469299-por-que-una-aerolinea-no-permitira-reservar-ni-comprar-pasajes-con-inteligencia-artificial"
+  },
+  {
+   "fecha": "2026-11-16T23:30:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El dólar blue tuvo el mayor salto diario en cinco meses y alcanzó por primera vez los $1.600",
+   "resumen": "El paralelo avanzó hasta $1.600 para la venta y volvió a despegarse del tipo de cambio oficial. Al mismo tiempo, el CCL aceleró por encima de $1.718 y reforzó la presión sobre los dólares financieros.",
+   "link": "https://www.ambito.com/finanzas/el-dolar-blue-tuvo-el-mayor-salto-diario-cinco-meses-y-alcanzo-primera-vez-los-1600-n6345866"
+  },
+  {
+   "fecha": "2026-11-16T23:30:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El real brasileño se desplomó 2,3% y tocó mínimos de 19 meses: suma presión sobre el dólar en Argentina",
+   "resumen": "La moneda del principal socio comercial del país acumula una depreciación cercana al 13% desde el balotaje presidencial de octubre. Las dudas sobre el rumbo fiscal de Lula da Silva y la incertidumbre global golpean a los activos brasileños.",
+   "link": "https://www.ambito.com/finanzas/el-real-brasileno-se-desplomo-23-y-toco-minimos-19-meses-suma-presion-el-dolar-argentina-n6345936"
+  },
+  {
+   "fecha": "2026-11-16T21:48:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "ambito.com",
+   "titulo": "El BCRA ya compró más de u$s250 millones en noviembre, pero las reservas siguen sin recuperarse",
+   "resumen": "La autoridad monetaria adquirió u$s33 millones y sostuvo las compras en el comienzo de la semana. Sin embargo, las reservas cayeron u$s133 millones, afectadas parcialmente por el oro, mientras el dólar mayorista alcanzó un nuevo máximo nomi",
+   "link": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us250-millones-noviembre-pero-las-reservas-siguen-recuperarse-n6345865"
+  },
+  {
+   "fecha": "2026-11-16T14:09:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Un router desató el peor caos aéreo de EEUU en años y dejó varados a millones de pasajeros",
+   "resumen": "El incidente tecnológico en puntos clave reveló graves fallas estructurales y obligó a revisar de urgencia el funcionamiento del tráfico aéreo",
+   "link": "https://www.iprofesional.com/tecnologia/469225-router-caotico-paralizo-vuelos-eeuu-dejo-varados-millones-pasajeros"
+  },
+  {
+   "fecha": "2026-11-16T13:40:00.000Z",
+   "categoria": "Argentina",
+   "fuente": "iprofesional.com",
+   "titulo": "Microsoft reveló qué provocó la caída que dejó sin servicios a 450 millones de usuarios",
+   "resumen": "Un error en la actualización desencadenó un colapso global en sistemas empresariales, exponiendo la fragilidad de las infraestructuras digitales",
+   "link": "https://www.iprofesional.com/tecnologia/469222-caida-masiva-microsoft-caos-global-alerta-millones-empresas"
+  }
+ ]
+}
